@@ -507,15 +507,14 @@ High
 }
 ```
 ### Verified Badge
-###### Clientsided
-###### when did i removed this lol
+###### clientsided, only you can see the badge
 ```json
 {
     "FStringWhitelistVerifiedUserId": "UserID"
 }
 ```
 ### Verified Badge on everyone
-###### Clientsided
+###### clientsided, only you can see the badge
 ```json
 {
     "FFlagOverridePlayerVerifiedBadge": "True"
@@ -534,6 +533,7 @@ High
 }
 ```
 ### Revert spacing on errors
+###### @kezcn
 ```json
 {
     "FFlagErrorPromptResizesHeight": "False"
