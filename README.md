@@ -521,7 +521,7 @@ High
     "FFlagOverridePlayerVerifiedBadge": "True"
 }
 ```
-### Applies Rainbow Neon Colors to guis
+### Makes Guis Neon Rainbow
 ```json
 {
     "FFlagDebugDisplayUnthemedInstances": "True"
