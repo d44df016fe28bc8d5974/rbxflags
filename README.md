@@ -1165,6 +1165,7 @@ High
 <h1 align="center">lol</h1>
 
 ### Don't Touch The Wall!
+##### if you touch a wall your client will freeze/crash
 ```json
 {
     "DFIntDebugSimPrimalNewtonIts": "-2147483647",
