@@ -370,7 +370,8 @@ High
     "FFlagDebugDisableTelemetryPoint": "True",
     "FFlagDebugDisableTelemetryV2Counter": "True",
     "FFlagDebugDisableTelemetryV2Event": "True",
-    "FFlagDebugDisableTelemetryV2Stat": "True"
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "FStringTencentAuthPath": "null"
 }
 ```
 ### Surf the web inside of Roblox
