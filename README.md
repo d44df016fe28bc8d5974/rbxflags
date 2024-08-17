@@ -1158,12 +1158,6 @@ High
 
 <h1 align="center">lol</h1>
 
-### Stop the Chinese from spying on you
-```json
-{
-    "FStringTencentAuthPath": "null"
-}
-```
 ### Don't Touch The Wall!
 ```json
 {
@@ -1173,6 +1167,8 @@ High
 }
 ```
 ### omg i cant believe roblox is that dumb to do this...
+> [!CAUTION]
+> these fflags cause a memory leak + crashes roblox
 ```json
 {
     "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
