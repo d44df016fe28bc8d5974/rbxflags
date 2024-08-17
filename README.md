@@ -768,6 +768,12 @@ High
     "FFlagEnableChromePinnedChat": "True"
 }
 ```
+### Chrome UI First Time User Experience
+```json
+{
+    "FFlagEnableChromeFTUX": "True"
+}
+```
 ### Ragdoll Death Type
 #### Studio Only
 ###### I tried `Ragdoll` to see if anything would happen lol this is how i found this (found this long time ago)
