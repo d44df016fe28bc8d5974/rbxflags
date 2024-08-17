@@ -1162,6 +1162,18 @@ High
 }
 ```
 
+<h1 align="center">Abusive Game Specific Presets</h1>
+
+### Bury people alive
+##### everything that you grab will fall through the ground
+##### https://www.roblox.com/games/6961824067/Fling-Things-and-People
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalStiffness": "0"
+}
+```
+
 <h1 align="center">lol</h1>
 
 ### Don't Touch The Wall!
