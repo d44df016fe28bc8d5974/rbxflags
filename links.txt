@@ -1,0 +1,5 @@
+FastFlags are Roblox's implementation of [feature flags](https://www.optimizely.com/optimization-glossary/feature-flags/), and their intention is for Roblox to remotely alter how aspects of the game engine/client function, without needing to push out a whole new client update every time. They are essentially controlling how pre-defined sections of code in the Roblox game client function. Whether it's defining what values they work with, enabling a feature, or even skipping over them entirely, etc.
+
+While they are always loaded online, they can be manually overriden by the user, allowing for you to similarly alter how Roblox functions. Bloxstrap features the ability to easily do this through the handy FastFlag editor.
+
+For a list of every FastFlag that Roblox makes available, see this [scraped FastVariable list](https://github.com/MaximumADHD/Roblox-Client-Tracker/blob/roblox/FVariables.txt), or [Roblox's official ClientSettings configuration list](https://clientsettings.roblox.com/v2/settings/application/PCDesktopClient).
