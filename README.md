@@ -1104,7 +1104,17 @@ High
     "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
 }
 ```
-
+### Spin
+###### spin + fly
+###### [video 1](https://streamable.com/c5rhfw) [video 2](https://streamable.com/c70sc8)
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "50",
+    "DFIntDebugSimPrimalWarmstartVelocity": "103",
+    "DFIntDebugSimPrimalStiffness": "300",
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
+}
+```
 <h1 align="center">Abusive Visuals</h1>
 
 ### Semi Fullbright
