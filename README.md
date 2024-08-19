@@ -1104,15 +1104,19 @@ High
     "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
 }
 ```
-### Spin
-###### spin + fly
-###### [video 1](https://streamable.com/c5rhfw) [video 2](https://streamable.com/c70sc8)
+### Spin 
+
+###### @bloodraven 
 ```json
 {
-    "DFIntDebugSimPrimalLineSearch": "50",
-    "DFIntDebugSimPrimalWarmstartVelocity": "103",
-    "DFIntDebugSimPrimalStiffness": "300",
-    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647",
+    "DFIntDebugSimPrimalPreconditioner": "1100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "DFIntDebugSimPrimalWarmstartForce": "-800",
+    "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
 <h1 align="center">Abusive Visuals</h1>
