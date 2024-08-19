@@ -1119,6 +1119,16 @@ High
     "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
+### fling yourself
+###### there is a chance that you noclip through the map
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "160",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
 <h1 align="center">Abusive Visuals</h1>
 
 ### Semi Fullbright
