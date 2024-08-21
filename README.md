@@ -1144,6 +1144,18 @@ High
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+### weird movement
+###### noclip,low gravity + fly if you equip a tool with shift lock
+###### kinda controllable
+###### [video](https://streamable.com/ymoeek)
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "160",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
 <h1 align="center">Abusive Visuals</h1>
 
 ### Semi Fullbright
