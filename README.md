@@ -1085,6 +1085,21 @@ High
   "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+### Speed (Not backwards but more buggy)
+#### Bugginess and Speed depends on the value of `DFIntDebugSimPrimalWarmstartForce` values i recommend are `775` and the value i put.
+##### Also for `DFIntDebugSimPrimalWarmstartVelocity` probably use value `150` but its kinda hard to do it and control
+###### this only works in r15
+```json
+{
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalWarmstartForce": "-885",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
+  "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
 ### Vehicle Speed 1
 ```json
 {
