@@ -6,3 +6,5 @@
 - 19/8/2024
   added spin
   added fling yourself
+- 21/8/2024
+  added speed
