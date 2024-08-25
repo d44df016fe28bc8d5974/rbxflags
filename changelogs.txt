@@ -9,3 +9,6 @@
 - 21/8/2024
   added speed
   added weird movement 
+- 25/8/2024
+  added Reduced avatar item particles in first person
+  added Increased preloading asset count
