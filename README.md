@@ -458,6 +458,22 @@ High
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### Reduced avatar item particles in first person
+###### This just reduces the particle effect transparency when you go into first person which helps with visibility.
+```json
+{
+    "FIntCameraMaxZoomDistance": "9999"
+}
+```
+### Increased preloading asset count
+###### Load into games faster
+```json
+{
+    "FIntCameraMaxZoomDistance": "9999"
+    "DFIntNumAssetsMaxToPreload": "9999999",
+    "DFIntAssetPreloading": "9999999"
+}
+```
 
 <h1 align="center">User Interface/Visuals</h1>
 
