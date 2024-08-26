@@ -12,3 +12,6 @@
 - 25/8/2024
   added Reduced avatar item particles in first person
   added Increased preloading asset count
+- 26/8/2024
+  added Customize chat translation settings
+  added Remove the "automatically translation" message
