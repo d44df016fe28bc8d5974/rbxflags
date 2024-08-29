@@ -474,7 +474,13 @@ High
     "DFIntAssetPreloading": "9999999"
 }
 ```
-
+### 5 decimal digits limit for camera sensitivity
+###### basically like idk 8 months ago roblox added a 3 decimal digits limit, some people that I know used those extra digits
+```json
+{
+    "FFlagFixSensitivityTextPrecision": "False"
+}
+```
 <h1 align="center">User Interface/Visuals</h1>
 
 ### Fix Reduced Motion Stuck
@@ -597,11 +603,12 @@ High
     "FIntMaxKickMessageLength": "1"
 }
 ```
-### Darker Dark Theme
+### Darker Dark Theme + blue escape menu
 ```json
 {
     "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagUIBloxUseNewThemeColorPalettes": "True"
+    "FFlagUIBloxUseNewThemeColorPalettes": "True",
+    "FFlagLuaAppEnableFoundationColors": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
