@@ -820,7 +820,12 @@ High
     "DFStringDefaultAvatarDeathType": "Ragdoll"
 }
 ```
-
+### lua app genres
+```json
+{
+    "FFlagLuaAppGenreUnderConstruction": "False"
+}
+```
 <h1 align="center">Audio Related</h1>
 
 ### Allows you to change voice chat distance 
