@@ -754,6 +754,13 @@ High
     "FFlagChatTranslationEnableSystemMessage": "False"
 }
 ```
+### remove the vr toggle
+###### removes the vr toggle from the escape menu
+```json
+{
+    "FFlagAlwaysShowVRToggleV3": "False"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Custom Accessory Positions
