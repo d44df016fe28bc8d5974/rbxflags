@@ -876,6 +876,42 @@ High
 }
 ```
 
+### Remove Parental Controls Tab
+```json
+{
+    "FFlagLuaAppsEnableParentalControlsTab": "False"
+}
+```
+### Legacy Search
+```json
+{
+    "FFlagAXSearchLandingPageIXPEnabled4": "False"
+}
+```
+### Disable Profile Picture Customization
+```json
+{
+"FFlagAXDefaultAvatarToShopEnabled3": "False"
+}
+```
+### old luaapp chat button
+```json
+{
+    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+}
+```
+### Disable Toast Notifications
+```json
+{
+    "FFlagToastNotificationsProtocolEnabled2": "False"
+}
+```
+### Rename Communications to Voice Enabled
+```json
+{
+    "FFlagGameDetailsDecoupledCommunication": "False"
+}
+```
 <h1 align="center">Physics (Abusive)</h1>
 
 ### Tool Desync
