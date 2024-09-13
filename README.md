@@ -292,7 +292,14 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-
+### Render Occlusion Culling
+###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
+```json
+{
+    "DFFlagUseVisBugChecks": "True",
+    "FFlagEnableVisBugChecks27": "True"
+}
+```
 <h1 align="center">Quality of Life</h1>
 
 ### Disable Captures Keybind
