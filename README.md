@@ -139,13 +139,6 @@ High
 9 = 18
 10 = 21
 ```
-### FRM 21 Graphics Quality Slider
-```json
-{
-    "FFlagCommitToGraphicsQualityFix": "True",
-    "FFlagFixGraphicsQuality": "True"
-}
-```
 ### Low Render Distance
 ###### [FRM](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#frm-levels)
 ```json
