@@ -300,6 +300,13 @@ High
     "FFlagEnableVisBugChecks27": "True"
 }
 ```
+### Increased Particles on low graphics
+###### @teeenoob
+```json
+{
+    "FFlagDebugDeterministicParticles" : "True"
+}
+```
 <h1 align="center">Quality of Life</h1>
 
 ### Disable Captures Keybind
@@ -766,6 +773,13 @@ High
 ```json
 {
     "FFlagAlwaysShowVRToggleV3": "False"
+}
+```
+### cleaner desktop home page
+###### Tho it wont remove the Recommended for you and Sponsored sections but it will remove the Recommended section (the insanely long one)
+```json
+{
+    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
