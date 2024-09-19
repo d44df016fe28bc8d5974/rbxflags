@@ -775,6 +775,39 @@ High
     "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
 }
 ```
+### Burger icon
+###### adds the 2015 3 lines icon to chrome ui
+###### Only works for chromeui
+```json
+{
+    "FFlagEnableHamburgerIcon": "True"
+}
+```
+### Thick healthbar
+###### Disabling it will completly remove the healthbar
+```json
+{
+    "FFlagUpdateHealthBar": "True"
+}
+```
+### Revert the new chrome ui to the old one
+```json
+{
+    "FFlagEnableHamburgerIcon": "False",
+    "FFlagEnableUnibarV4IA": "False",
+    "FFlagEnableAlwaysOpenUnibar2": "False",
+    "FFlagEnableUnibarSneakPeak": "False",
+    "FFlagUseNewUnibarIcon": "False",
+    "FFlagEnableChromePinIntegrations2": "True"
+}
+```
+### Fix broken health bar
+```json
+{
+    "FFlagEnableAlwaysOpenUnibar2": "False"
+
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Custom Accessory Positions
