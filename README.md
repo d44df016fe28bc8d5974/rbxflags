@@ -805,7 +805,12 @@ High
 ```json
 {
     "FFlagEnableAlwaysOpenUnibar2": "False"
-
+}
+```
+### Fix the 2015 escape menu
+```json
+{
+    "FFlagFixReportButtonCutOff": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
