@@ -905,7 +905,7 @@ High
 ### Audio Occlusion
 ```json
 {
-    "FFlagSoundsUsePhysicalVelocity": "True"
+    "FFlagDebugEnableDirectAudioOcclusion2": "True"
 }
 ```
 ### Limit audios that are being played
