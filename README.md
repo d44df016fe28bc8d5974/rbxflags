@@ -343,7 +343,7 @@ High
     "DFIntCanHideGuiGroupId": "ID"
 }
 ```
-### Remove layared clothing related for searching in lua app catalog
+### Remove layered clothing related for searching in lua app catalog
 ###### From: https://discord.gg/nKjV3mGq6R
 ```json
 {
@@ -354,12 +354,6 @@ High
 ```json
 {
     "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
-}
-```
-### Stuttery Animation Fix
-```json
-{
-    "DFIntTimestepArbiterThresholdCFLThou": "300"
 }
 ```
 ### Disable In-game Advertisements
