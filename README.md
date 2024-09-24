@@ -812,16 +812,21 @@ High
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
+### Roblox events button
+###### remove FStringPlatformEventUrl to have the default url
+```json
+{
+    "FFlagPlatformEventEnabled2": "True",
+    "FStringPlatformEventUrl": "AnyLinkHere"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Custom Accessory Positions
+### Hat positioning Update
 ```
 {
-    "FFlagAXAccessoryAdjustment": "True",
-    "FFlagAXAccessoryAdjustmentIXPEnabled": "True",
-    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True",
-    "FFlagAXAvatarFetchResultCamelCase": "True",
-    "FFlagAccessoryAdjustmentEnabled3": "True"
+    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True"
 }
 ```
 ### Disable Haptics Option
