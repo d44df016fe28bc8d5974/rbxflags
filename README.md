@@ -604,12 +604,17 @@ High
     "FIntMaxKickMessageLength": "1"
 }
 ```
-### Darker Dark Theme + blue escape menu
+### Darker Dark Theme
 ```json
 {
     "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagUIBloxUseNewThemeColorPalettes": "True",
-    "FFlagLuaAppEnableFoundationColors": "True"
+    "FFlagUIBloxUseNewThemeColorPalettes": "True"
+}
+```
+### Blue theme
+```json
+{
+    "FFlagLuaAppEnableFoundationColors3": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
