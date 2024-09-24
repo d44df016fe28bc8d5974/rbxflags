@@ -580,7 +580,7 @@ High
     "FFlagNewCameraControls": "True"
 }
 ```
-### Custom MicroProfile Scale
+### Custom MicroProfiler Scale
 ```json
 {
     "DFIntMicroProfilerDpiScaleOverride":  "100"
@@ -821,6 +821,7 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
+
 ### Hat positioning Update
 ```
 {
