@@ -821,8 +821,6 @@ High
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
-
-### Custom Accessory Positions
 ### Hat positioning Update
 ```
 {
