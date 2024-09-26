@@ -463,14 +463,13 @@ High
 ###### This just reduces the particle effect transparency when you go into first person which helps with visibility.
 ```json
 {
-    "FIntCameraMaxZoomDistance": "9999"
+    "FFlagUserHideCharacterParticlesInFirstPerson": "True"
 }
 ```
 ### Increased preloading asset count
 ###### Load into games faster
 ```json
 {
-    "FIntCameraMaxZoomDistance": "9999"
     "DFIntNumAssetsMaxToPreload": "9999999",
     "DFIntAssetPreloading": "9999999"
 }
@@ -480,6 +479,14 @@ High
 ```json
 {
     "FFlagFixSensitivityTextPrecision": "False"
+}
+```
+### Disable voicechat
+###### Setting this to True will not do anything 
+###### [TIP] Use PlaceFilter for specific games
+```json
+{
+    "DFFlagVoiceChat4": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals</h1>
