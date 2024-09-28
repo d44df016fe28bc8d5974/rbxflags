@@ -964,7 +964,7 @@ High
 ### Disable Profile Picture Customization
 ```json
 {
-"FFlagAXDefaultAvatarToShopEnabled3": "False"
+    "FFlagAXDefaultAvatarToShopEnabled3": "False"
 }
 ```
 ### old luaapp chat button
