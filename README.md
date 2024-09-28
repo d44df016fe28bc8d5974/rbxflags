@@ -290,7 +290,9 @@ High
 ```json
 {
     "DFFlagUseVisBugChecks": "True",
-    "FFlagEnableVisBugChecks27": "True"
+    "FFlagEnableVisBugChecks27": "True",
+    "FFlagVisBugChecksThreadYield": "True",
+    "FIntEnableVisBugChecksHundredthPercent27": "100"
 }
 ```
 ### Increased Particles on low graphics
@@ -802,9 +804,18 @@ High
     "FFlagEnableHamburgerIcon": "False",
     "FFlagEnableUnibarV4IA": "False",
     "FFlagEnableAlwaysOpenUnibar2": "False",
-    "FFlagEnableUnibarSneakPeak": "False",
     "FFlagUseNewUnibarIcon": "False",
-    "FFlagEnableChromePinIntegrations2": "True"
+    "FFlagUseSelfieViewFlatIcon": "False",
+    "FFlagUnibarRespawn": "False",
+    "FFlagEnableChromePinIntegrations2": "False"
+}
+```
+### Extra + left healthbar for chrome ui Topbar
+```json
+{
+    "FFlagEnableUnibarMaxDefaultOpen": "True",
+    "FFlagUpdateHealthBar": "False",
+    "FFlagUseNewPinIcon": "False"
 }
 ```
 ### Fix broken health bar
