@@ -1,6 +1,3 @@
-what are feature flags
-- https://www.optimizely.com/optimization-glossary/feature-flags/
-
 Scraped FastVariable list
 - https://github.com/MaximumADHD/Roblox-Client-Tracker/blob/roblox/FVariables.txt
 
