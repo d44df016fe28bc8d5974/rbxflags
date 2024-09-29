@@ -1426,7 +1426,12 @@ High
     "DFIntDataSenderMaxBandwidthBps": "150"
 }
 ```
-
+### Crash roblox 3 
+```json
+{
+    "DFFlagDebugSimulateHangAtStartup": "True"
+}
+```
 <h1 align="center">Debug</h1>
 
 ### Shows the state of a flag
