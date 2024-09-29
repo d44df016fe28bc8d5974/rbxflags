@@ -620,12 +620,6 @@ High
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
-### Blue theme
-```json
-{
-    "FFlagLuaAppEnableFoundationColors3": "True"
-}
-```
 ### No Transparency V4 Menu **(2023)**
 ```json
 {
@@ -838,6 +832,20 @@ High
     "FStringPlatformEventUrl": "AnyLinkHere"
 }
 ```
+### Mini webview
+```json
+{
+    "FFlagWebViewProtocol": "False"
+}
+```
+### Google guidelines
+###### Makes the Learn More button in the Age rating button redirect to the link of your choice
+###### desktop app only
+```json
+{
+    "FFlagWebViewProtocol": "False"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
@@ -898,12 +906,6 @@ High
 ```json
 {
     "DFStringDefaultAvatarDeathType": "Ragdoll"
-}
-```
-### lua app genres
-```json
-{
-    "FFlagLuaAppGenreUnderConstruction": "False"
 }
 ```
 <h1 align="center">Audio Related</h1>
