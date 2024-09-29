@@ -1427,9 +1427,17 @@ High
 }
 ```
 ### Crash roblox 3 
+##### when you try to launch roblox it won't open
 ```json
 {
     "DFFlagDebugSimulateHangAtStartup": "True"
+}
+```
+### Crash roblox 4
+##### the same thing from above but it only crashes when you try to close roblox
+```json
+{
+    "DFFlagDebugSimulateHangAtShutdown": "True"
 }
 ```
 <h1 align="center">Debug</h1>
