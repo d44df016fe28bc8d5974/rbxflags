@@ -628,6 +628,12 @@ High
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
+### Blue theme
+```json
+{
+    "FFlagLuaAppEnableFoundationColors3": "True"
+}
+```
 ### No Transparency V4 Menu **(2023)**
 ```json
 {
