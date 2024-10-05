@@ -866,9 +866,17 @@ High
 ###### satlybpro (708463225578192968) Bloxstrap stuff
 ```json
 {
-    "FFlagChromeUsePreferredTransparency": false
+    "FFlagChromeUsePreferredTransparency": "False"
 }
 ```
+### Preferred text size scale
+###### enables a font scaler in the escape menu
+```json
+{
+     "FFlagEnablePreferredTextSizeScale": "True",
+     "FFlagEnablePreferredTextSizeSettingInMenus2": "True"
+}
+``` 
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
