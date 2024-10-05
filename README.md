@@ -101,6 +101,7 @@
 }
 ```
 ### Disable Shadows
+###### found by Uvoltan (427392063563235328)
 ```json
 {
     "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
@@ -730,6 +731,7 @@ High
 }
 ```
 ### Disable VR Collision Fade
+###### found by Sky (364112742153584640) in Bloxstrap stuff
 ```json
 {
     "FFlagViewCollisionFadeToBlackInVR": "False"
