@@ -863,7 +863,7 @@ High
 ### No opacity to Chrome UI
 ###### So when this fflag is set to false when you change the background transparency in the esc menu it won't affect the small 3 buttons of chrome ui and will keep them semi-transparent
 ###### the bg transparency set to opaque and the fflag is true and one on the right is bg transparency set to opaque and the fflag is false
-###### satlybpro (708463225578192968) Bloxstrap stuff
+###### found by satlybpro (708463225578192968) in Bloxstrap stuff
 ```json
 {
     "FFlagChromeUsePreferredTransparency": "False"
@@ -871,6 +871,7 @@ High
 ```
 ### Preferred text size scale
 ###### enables a font scaler in the escape menu
+###### found by Sky (364112742153584640) in Bloxstrap stuff
 ```json
 {
      "FFlagEnablePreferredTextSizeScale": "True",
