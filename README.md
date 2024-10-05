@@ -860,6 +860,15 @@ High
     "FFlagWebViewProtocol": "False"
 }
 ```
+### No opacity to Chrome UI
+###### So when this fflag is set to false when you change the background transparency in the esc menu it won't affect the small 3 buttons of chrome ui and will keep them semi-transparent
+###### the bg transparency set to opaque and the fflag is true and one on the right is bg transparency set to opaque and the fflag is false
+###### satlybpro (708463225578192968) Bloxstrap stuff
+```json
+{
+    "FFlagChromeUsePreferredTransparency": false
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
