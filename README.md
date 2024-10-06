@@ -262,7 +262,22 @@ High
 {
     "FIntFRMMinGrassDistance": "0",
     "FIntFRMMaxGrassDistance": "0",
-    "FIntRenderGrassDetailStrands": "0",
+    "FIntRenderGrassDetailStrands": "0"
+}
+```
+### Increased Grass Motion
+###### really fast speed
+###### found by spectro (145596270726217728) in Bloxstrap stuff
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": "999"
+}
+```
+### No Grass Motion
+###### found by spectro (145596270726217728) in Bloxstrap stuff
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": "0"
 }
 ```
 ### Force MSAA 
