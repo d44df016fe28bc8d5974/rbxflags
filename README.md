@@ -1371,15 +1371,15 @@ High
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
-### weird movement
-###### noclip,low gravity + fly if you equip a tool with shift lock
+### fly
+###### equip a tool to start flying
 ###### kinda controllable
-###### [video](https://streamable.com/ymoeek)
+###### found by popbob (kezcn)
+###### [showcase](https://streamable.com/om4l5x)
 ```json
 {
     "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "160",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
