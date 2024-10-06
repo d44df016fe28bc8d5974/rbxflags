@@ -1116,7 +1116,6 @@ High
 }
 ```
 ### Disable Touch Events
-###### if a game has fall damage, you won't get damaged but checkpoints in obbies wont work
 ```json
 {
     "DFIntTouchSenderMaxBandwidthBps": "-1"
