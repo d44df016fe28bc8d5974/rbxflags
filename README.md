@@ -1174,11 +1174,28 @@ High
     "DFIntDebugSimPrimalStiffness": "0"
 }
 ```
+### Noclip 4
+###### @burgerboxer
+###### don't use this, use noclip 3 instead
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1"
+}
+```
 ### Freeze
 ```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalLineSearch": "0"
+}
+```
+### Freeze 2
+###### @burgerboxer
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "0"
 }
 ```
 ### Hip Height
