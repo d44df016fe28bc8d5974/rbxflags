@@ -1088,6 +1088,7 @@ High
 ```
 ### Delayed Animations
 ###### your animations on your screen are normal but on the server they aren't
+###### affects everyone's animations
 ###### [video](https://streamable.com/68hru3)
 ```json
 {
