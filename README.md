@@ -1086,6 +1086,14 @@ High
     "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
 ```
+### Delayed Animations
+###### your animations on your screen are normal but on the server they aren't
+###### [video](https://streamable.com/68hru3)
+```json
+{
+    "FFlagProcessAnimationLooped": "False"
+}
+```
 ### Stick unanchored parts to you
 ##### - = up, + = down
 ```json
