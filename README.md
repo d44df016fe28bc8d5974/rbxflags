@@ -1267,13 +1267,6 @@ High
     "DFIntDebugSimPrimalLineSearch": "3"
 }
 ```
-### Void Unanchored Parts
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "222"
-}
-```
 ### Low Gravity 2
 ###### this is more buggy
 ```json
@@ -1297,6 +1290,38 @@ High
     "DFIntDebugSimPrimalToleranceInv": "1",
     "DFIntDebugSimPrimalWarmstartForce": "-150",
     "DFIntDebugSimPrimalWarmstartVelocity": "100"
+}
+```
+### Low Gravity 3
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagDebugSimPrimalGSLump": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-1111"
+}
+```
+### Slow Walk + Low Gravity 
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartVelocity": "50"
+}
+```
+### Upside Down while slowly being sent to heaven
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "1000",
+    "DFIntDebugSimPrimalWarmstartVelocity": "50"
+}
+```
+### Void Unanchored Parts
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "222"
 }
 ```
 ### Tool Fly
