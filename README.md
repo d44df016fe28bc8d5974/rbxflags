@@ -1282,7 +1282,6 @@ High
   "DFIntDebugSimPrimalPreconditioner": "100",
   "DFIntDebugSimPrimalPreconditionerMinExp": "100",
   "DFIntDebugSimPrimalNewtonIts": "1",
-  "FFlagDebugSimDefaultPrimalSolver": "True",
   "DFIntDebugSimPrimalWarmstartVelocity": "-150",
   "DFIntDebugSimPrimalWarmstartForce": "-775",
   "DFIntDebugSimPrimalToleranceInv": "1"
