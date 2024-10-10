@@ -1089,6 +1089,7 @@ High
 ### Delayed Animations
 ###### your animations on your screen are normal but on the server they aren't
 ###### affects everyone's animations
+###### @pyhlou
 ###### [video](https://streamable.com/68hru3)
 ```json
 {
@@ -1220,6 +1221,17 @@ High
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalNewtonIts": "0"
+}
+```
+### Wall climb
+###### @pyhlou, @bloxstrapuser1025
+###### [?](https://streamable.com/vsfsd7)
+```json
+{
+  "FIntDebugSimPrimalStabilization": "-2147483647",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "DFIntDebugSimPrimalLineSearch": "5",
+  "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
 ### Hip Height
@@ -1356,7 +1368,6 @@ High
 }
 ```
 ### Spin 
-
 ###### @bloodraven 
 ```json
 {
