@@ -1079,6 +1079,14 @@ High
     "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
+### Bouncy
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200",
+    "DFIntDebugSimPrimalLineSearch": "1"
+}
+```
 ### No Animations
 ###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
 ```json
