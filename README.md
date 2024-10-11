@@ -1231,15 +1231,11 @@ High
     "DFIntDebugSimPrimalNewtonIts": "0"
 }
 ```
-### Wall climb
-###### @pyhlou, @bloxstrapuser1025
-###### [?](https://streamable.com/vsfsd7)
+### Noclip 7
 ```json
 {
-  "FIntDebugSimPrimalStabilization": "-2147483647",
-  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
-  "DFIntDebugSimPrimalLineSearch": "5",
   "FFlagDebugSimDefaultPrimalSolver": "True"
+  "FIntDebugSimPrimalStabilization": "-2147483647"
 }
 ```
 ### Hip Height
