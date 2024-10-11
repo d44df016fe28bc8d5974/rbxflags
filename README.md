@@ -1209,11 +1209,25 @@ High
 ```
 ### Noclip 4
 ###### @burgerboxer
-###### don't use this, use noclip 3 instead
 ```json
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalNewtonIts": "1"
+}
+```
+### Noclip 5
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalPreconditioner": "1",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10"
+}
+```
+### Noclip 6
+```json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True"
+  "FIntDebugSimPrimalStabilization": "-2147483647"
 }
 ```
 ### Freeze
@@ -1229,13 +1243,6 @@ High
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalNewtonIts": "0"
-}
-```
-### Noclip 7
-```json
-{
-  "FFlagDebugSimDefaultPrimalSolver": "True"
-  "FIntDebugSimPrimalStabilization": "-2147483647"
 }
 ```
 ### Hip Height
