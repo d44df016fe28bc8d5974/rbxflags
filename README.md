@@ -1159,6 +1159,14 @@ High
     "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
 }
 ```
+### Teleport ragdolled bodies to 0,0,0
+###### this doesn't work in every game with ragdolls
+###### the teleporting is clientsided, no one else can see them
+```json
+{
+    "DFIntGameNetLocalSpaceMaxSendIndex: "10000"
+}
+```
 ### Invisible 3
 ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
 ```json
