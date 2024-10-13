@@ -1480,7 +1480,7 @@ High
 ### Fullbright 2
 ###### fullbright 2 is better than fullbright 1
 ######  fullbright 1 and 2 only work in games that use sun or basic time like tower of hell and all glitch in roblox
-##### @NoobLikesThis
+###### @NoobLikesThis
 ```json
 {
     "FFlagFastGPULightCulling3": "True",
