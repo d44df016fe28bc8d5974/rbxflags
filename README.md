@@ -1460,6 +1460,45 @@ High
     "DFFlagDebugPauseVoxelizer": "True"
 }
 ```
+### Fullbright 1
+###### @NoobLikesThis
+```json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderFixFog": "True",
+    "FFlagDisablePostFx": "True"
+}
+```
+### Fullbright 2
+###### fullbright 2 is better than fullbright 1
+######  fullbright 1 and 2 only work in games that use sun or basic time like tower of hell and all glitch in roblox
+##### @NoobLikesThis
+```json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FIntRenderShadowIntensity": "0",
+    "FFlagRenderFixFog": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderNoLowFrmBloom": "false",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "FIntBloomFrmCutoff": "1654515",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagFRMRefactor": "false",
+    "FFlagDisablePostFx": "True"
+}
+```
 ### Draws a circle under avatars
 ```json
 {
@@ -1669,7 +1708,7 @@ High
 ```json
 {
     "FFlagDisablePostFx": "True",
-    "FIntDebugTextureManagerSkipMips": "-1",
+    "FIntDebugTextureManagerSkipMips": "8",
     "DFIntTextureCompositorActiveJobs": "0",
     "DFIntCSGLevelOfDetailSwitchingDistance": "0",
     "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
