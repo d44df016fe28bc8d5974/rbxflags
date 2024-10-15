@@ -1461,6 +1461,7 @@ High
 }
 ```
 ### Fullbright 1
+###### use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.
 ###### @NoobLikesThis
 ```json
 {
@@ -1478,8 +1479,8 @@ High
 }
 ```
 ### Fullbright 2
-###### fullbright 2 is better than fullbright 1
-######  fullbright 1 and 2 only work in games that use sun or basic time like tower of hell and all glitch in roblox
+###### same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
+###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
 ###### @NoobLikesThis
 ```json
 {
