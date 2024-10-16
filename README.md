@@ -54,6 +54,13 @@
     "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
+### Unified lighting
+###### this is just future but with even more shadows
+```json
+{
+    "FFlagRenderUnifiedLighting8": "True"
+}
+```
 
 <h1 align="center">Graphical Settings</h1>
 
