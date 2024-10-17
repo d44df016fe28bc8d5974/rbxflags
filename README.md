@@ -948,7 +948,8 @@ High
   "FFlagEnableMenuModernizationABTest": "False",
   "FFlagEnableMenuModernizationABTest2": "False",
   "FFlagEnableV3MenuABTest3": "False",
-  "FFlagFixReportButtonCutOff": "False"
+  "FFlagFixReportButtonCutOff": "False",
+  "FIntNewInGameMenuPercentRollout3": "0"
 }
 ```
 ### Hide playerlist close button on Chrome UI
