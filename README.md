@@ -901,7 +901,16 @@ High
      "FFlagEnablePreferredTextSizeScale": "True",
      "FFlagEnablePreferredTextSizeSettingInMenus2": "True"
 }
-``` 
+```
+### Explorer Redesign
+###### studio only
+###### found by easternbloxxer (534419428368973835) in Bloxstrap stuff
+```json
+{
+    "FFlagExplorerPropertiesUseRDLColors": "True",
+    "FFlagExplorerPropertiesUseStyledObject": "True"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
