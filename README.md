@@ -1259,6 +1259,17 @@ High
   "FIntDebugSimPrimalStabilization": "-2147483647"
 }
 ```
+### Noclip 7
+###### dont jump or fall you will get flinged, buggy
+###### @NoobLikesThis
+```json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalLineSearch": "1",
+  "DFIntDebugSimPrimalWarmstartVelocity": "102",
+  "DFIntDebugSimPrimalWarmstartForce": "50"
+}
+```
 ### Freeze
 ```json
 {
