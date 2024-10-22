@@ -58,7 +58,8 @@
 ###### this is just future but with even more shadows
 ```json
 {
-    "FFlagRenderUnifiedLighting8": "True"
+    "FFlagRenderUnifiedLighting8": "True",
+    "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
 
@@ -856,9 +857,10 @@ High
     "FFlagEnableAlwaysOpenUnibar2": "False"
 }
 ```
-### Fix the 2015 escape menu
+### V1 Menu Fix
 ```json
 {
+    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
