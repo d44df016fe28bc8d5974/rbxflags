@@ -1220,6 +1220,7 @@ High
 }
 ```
 ### Warp
+###### to warp, first walk and continue walking then hold the white window bar and untab
 ```json
 {
     "DFIntMaxMissedWorldStepsRemembered": "1000"
