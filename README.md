@@ -1111,14 +1111,6 @@ High
     "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-### Bouncy
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200",
-    "DFIntDebugSimPrimalLineSearch": "1"
-}
-```
 ### No Animations
 ###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
 ```json
@@ -1240,64 +1232,6 @@ High
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
-### Noclip 3
-###### @burgerboxer & @dis_spencer
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntMaximumFreefallMoveTimeInTenths": "1000",
-    "DFIntDebugSimPrimalStiffness": "0"
-}
-```
-### Noclip 4
-###### @burgerboxer
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalNewtonIts": "1"
-}
-```
-### Noclip 5
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalPreconditioner": "1",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "10"
-}
-```
-### Noclip 6
-```json
-{
-  "FFlagDebugSimDefaultPrimalSolver": "True"
-  "FIntDebugSimPrimalStabilization": "-2147483647"
-}
-```
-### Noclip 7
-###### dont jump or fall you will get flinged, buggy
-###### @NoobLikesThis
-```json
-{
-  "FFlagDebugSimDefaultPrimalSolver": "True",
-  "DFIntDebugSimPrimalLineSearch": "1",
-  "DFIntDebugSimPrimalWarmstartVelocity": "102",
-  "DFIntDebugSimPrimalWarmstartForce": "50"
-}
-```
-### Freeze
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "0"
-}
-```
-### Freeze 2
-###### @burgerboxer
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalNewtonIts": "0"
-}
-```
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```json
@@ -1319,176 +1253,6 @@ High
     "DFIntMinClientSimulationRadius": "2147000000",
     "DFIntMinimalSimRadiusBuffer": "2147000000",
     "DFIntMaxClientSimulationRadius": "2147000000"
-}
-```
-### Low Gravity 1
-###### 'FFlagDebugSimDefaultPrimalSolver' : True, # Enable the new simulation engine or whatever it is
-###### 'DFIntDebugSimPrimalLineSearch' : 1, # A poor man's gravity/flight [Default 100] (above 0 is low gravity | below 1 to -1 is will make gameplay weird when it comes to physics | below -1 is a poor mans fly (not really useable) 
-###### credit [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "3"
-}
-```
-### Low Gravity 2
-###### this is more buggy
-```json
-{
-  "FFlagDebugSimDefaultPrimalSolver": "True",
-  "DFIntDebugSimPrimalPreconditioner": "100",
-  "DFIntDebugSimPrimalPreconditionerMinExp": "100",
-  "DFIntDebugSimPrimalNewtonIts": "1",
-  "DFIntDebugSimPrimalWarmstartVelocity": "-150",
-  "DFIntDebugSimPrimalWarmstartForce": "-775",
-  "DFIntDebugSimPrimalToleranceInv": "1"
-}
-```
-### Low Gravity 2 Control on Parts Improvement
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalNewtonIts": "1",
-    "DFIntDebugSimPrimalPreconditioner": "15",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
-    "DFIntDebugSimPrimalToleranceInv": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "-150",
-    "DFIntDebugSimPrimalWarmstartVelocity": "100"
-}
-```
-### Low Gravity 3
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "FFlagDebugSimPrimalGSLump": "True",
-    "FIntDebugSimPrimalGSLumpAlpha": "-1111"
-}
-```
-### Slow Walk + Low Gravity 
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartVelocity": "50"
-}
-```
-### Upside Down while slowly being sent to heaven
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "1000",
-    "DFIntDebugSimPrimalWarmstartVelocity": "50"
-}
-```
-### Void Unanchored Parts
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "222"
-}
-```
-### Tool Fly
-```json
-{
-    "DFIntMinimalSimRadiusBuffer": "2147000000",
-    "DFIntMinClientSimulationRadius": "2147000000",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True",
-    "DFIntMaxClientSimulationRadius": "2147000000",
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFIntNonSolidFloorPercentForceApplication": "-12000",
-    "DFIntDebugSimPrimalPreconditioner": "100",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "100",
-    "DFIntDebugSimPrimalNewtonIts": "2",
-    "DFIntDebugSimPrimalWarmstartVelocity": "-150",
-    "DFIntDebugSimPrimalWarmstartForce": "-775",
-    "DFIntDebugSimPrimalToleranceInv": "1"
-}
-```
-### Backwards SpeedHax
-#### Bugginess and Speed depends on the value of `DFIntDebugSimPrimalWarmstartForce` values i recommend are `775` and the value i put.
-##### Also for `DFIntDebugSimPrimalWarmstartVelocity` probably use value `150` but its kinda hard to do it and control
-###### I may have not found this first but i found this by myself btw
-```json
-{
-  "DFIntDebugSimPrimalNewtonIts": "1",
-  "DFIntDebugSimPrimalPreconditioner": "69",
-  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
-  "DFIntDebugSimPrimalToleranceInv": "1",
-  "DFIntDebugSimPrimalWarmstartForce": "-885",
-  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
-  "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
-### Speed (Not backwards but more buggy)
-#### Bugginess and Speed depends on the value of `DFIntDebugSimPrimalWarmstartForce` values i recommend are `775` and the value i put.
-##### Also for `DFIntDebugSimPrimalWarmstartVelocity` probably use value `150` but its kinda hard to do it and control
-###### this only works in r15
-```json
-{
-  "DFIntDebugSimPrimalNewtonIts": "1",
-  "DFIntDebugSimPrimalPreconditioner": "69",
-  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
-  "DFIntDebugSimPrimalToleranceInv": "1",
-  "DFIntDebugSimPrimalWarmstartForce": "-885",
-  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
-  "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
-### Vehicle Speed 1
-```json
-{
-    "DFIntDebugSimPrimalWarmstartForce": "40",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalLineSearch": "41"
-}
-```
-### Vehicle Speed 2
-###### prob the same mess w the values maybe youll get something different
-```json
-{
-    "DFIntDebugSimPrimalLineSearch": "50",
-    "DFIntDebugSimPrimalWarmstartVelocity": "103",
-    "DFIntDebugSimPrimalStiffness": "300",
-    "DFIntBulletContactBreakOrthogonalThresholdPercent": "10000"
-}
-```
-### Spin 
-###### @bloodraven 
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647",
-    "DFIntDebugSimPrimalPreconditioner": "1100",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
-    "DFIntDebugSimPrimalNewtonIts": "2",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
-    "DFIntDebugSimPrimalWarmstartForce": "-800",
-    "DFIntDebugSimPrimalToleranceInv": "1"
-}
-```
-### fling yourself
-###### there is a chance that you noclip through the map
-```json
-{
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "160",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
-    "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
-### fly
-###### equip a tool to start flying
-###### kinda controllable
-###### found by popbob (kezcn)
-###### [showcase](https://streamable.com/om4l5x)
-```json
-{
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartVelocity": "100",
-    "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
 <h1 align="center">Abusive Visuals</h1>
@@ -1591,27 +1355,10 @@ High
 
 <h1 align="center">Abusive Game Specific Presets</h1>
 
-### Bury people alive
-##### everything that you grab will fall through the ground
-##### https://www.roblox.com/games/6961824067/Fling-Things-and-People
-```json
-{
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "DFIntDebugSimPrimalStiffness": "0"
-}
-```
+
 
 <h1 align="center">lol</h1>
 
-### Don't Touch The Wall!
-##### if you touch a wall your client will freeze/crash
-```json
-{
-    "DFIntDebugSimPrimalNewtonIts": "-2147483647",
-    "DFIntDebugSimPrimalToleranceInv": "-2147483647",
-    "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
 ### omg i cant believe roblox is that dumb to do this...
 > [!CAUTION]
 > these fflags cause a memory leak + crashes roblox
