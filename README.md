@@ -1245,6 +1245,7 @@ High
 }
 ```
 ### Slide on Terrain/Meshes
+###### @tyetonix
 ```json
 {
     "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
@@ -1498,6 +1499,7 @@ High
 ```
 ### Self Explanatory 7
 ###### LDL dev console printing
+###### @tyetonix
 ```json
 {
     "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
@@ -1506,6 +1508,7 @@ High
 ```
 ### Self Explanatory 8
 ###### prints body allocations counts in dev console
+###### @tyetonix
 ```json
 {
     "FFlagDebugCountSimBodyAllocations": "True"
