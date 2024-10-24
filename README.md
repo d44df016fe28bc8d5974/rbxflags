@@ -1497,6 +1497,21 @@ High
     "FFlagDisableFeedbackSoothsayerCheck": "False"
 }
 ```
+### Self Explanatory 7
+###### LDL dev console printing
+```json
+{
+    "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
+    "DFFlagDebugSimLDLProgramPrintExecStats": "True"
+}
+```
+### Self Explanatory 8
+###### prints body allocations counts in dev console
+```json
+{
+    "FFlagDebugCountSimBodyAllocations": "True"
+}
+```
 
 <h1 align="center">Community Presets</h1>
 
