@@ -149,7 +149,6 @@ High
 10 = 21
 ```
 ### Low Render Distance
-###### [FRM](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#frm-levels)
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
