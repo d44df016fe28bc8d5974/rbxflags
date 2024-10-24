@@ -1245,6 +1245,12 @@ High
     "DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
+### Slide on Terrain/Meshes
+```json
+{
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+}
+```
 ### Network Ownership
 ###### better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
 ###### this might get you banned in some games with anticheats (Limbobbia)
