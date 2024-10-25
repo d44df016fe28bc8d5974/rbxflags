@@ -654,7 +654,7 @@ High
 ### Blue theme
 ```json
 {
-    "FFlagLuaAppEnableFoundationColors3": "True"
+    "FFlagLuaAppEnableFoundationColors4": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
