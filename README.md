@@ -487,7 +487,7 @@ High
 }
 ```
 ### Lets you change the zoom out limit
-###### Only applies to games that has not changed the default zoom limit
+###### Only applies to games that haven't changed the default zoom limit
 ```json
 {
     "FIntCameraMaxZoomDistance": "9999"
