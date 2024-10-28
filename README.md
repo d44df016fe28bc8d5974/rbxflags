@@ -472,6 +472,13 @@ High
     "FFlagDebugDefaultChannelStartMuted": "False"
 }
 ```
+### Mute button redesign (VC)
+###### changes the vc mute button in the menu
+```json
+{
+    "FFlagMuteTogglesEnableIXP": "False"
+}
+```
 ### opt-out Experience Language
 ###### Removes the Experience Language option in settings
 ```json
