@@ -287,6 +287,16 @@ High
     "FIntGrassMovementReducedMotionFactor": "0"
 }
 ```
+### Move Pre-Render Phase [~25% Performance Boost]
+###### This FastFlag moves the Pre-Render task to an off thread after all other tasks are completed. By default, Pre-Render runs first, forcing the render thread to wait until the Pre-Render process finishes before it can start rendering a frame.
+###### With this FastFlag enabled, Pre-Renderer is executed while the main thread is processing the previous frame. This adjustment allows the main thread to proceed without waiting for Pre-Renderer, leading to increased framerates at the expense of some frame latency.
+###### This flag is most effective in CPU-bound scenarios.
+###### This fflag might cause issues
+```json
+{
+    "FFlagMovePrerender": "True"
+}
+```
 ### Force MSAA 
 ###### *[0, 1, 2, 4, 8]*
 ```json
@@ -470,13 +480,6 @@ High
 ```json
 {
     "FFlagDebugDefaultChannelStartMuted": "False"
-}
-```
-### Mute button redesign (VC)
-###### changes the vc mute button in the menu
-```json
-{
-    "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
 ### opt-out Experience Language
@@ -767,6 +770,7 @@ High
 }
 ```
 ### Limit Videos Playing
+###### @kezcn
 ```json
 {
     "DFIntVideoMaxNumberOfVideosPlaying": "0"
@@ -781,6 +785,7 @@ High
 ```
 ### Desktop App Dev Tools
 ###### only works on web view windows like profiles, ctrl + shift + I
+###### @kezcn
 ```json
 {
     "FFlagDebugEnableNewWebView2DevTool": "True"
@@ -917,6 +922,14 @@ High
 {
     "FFlagExplorerPropertiesUseRDLColors": "True",
     "FFlagExplorerPropertiesUseStyledObject": "True"
+}
+```
+### Mute button redesign (VC)
+###### changes the vc mute button in the menu
+###### @kezcn
+```json
+{
+    "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
