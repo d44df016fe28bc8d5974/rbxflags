@@ -1187,7 +1187,7 @@ High
 ###### the teleporting is clientsided, no one else can see them
 ```json
 {
-    "DFIntGameNetLocalSpaceMaxSendIndex: "10000"
+    "DFIntGameNetLocalSpaceMaxSendIndex": "10000"
 }
 ```
 ### Invisible 3
