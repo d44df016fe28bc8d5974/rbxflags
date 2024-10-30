@@ -935,6 +935,14 @@ High
     "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
+### Removes the new ingame chrome chat button
+###### if you use v1 menu, this reverts the chat icon to the old one
+###### @kezcn
+```json
+{
+    "FFlagAppChatInExperienceEnabledV647new": "False"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
