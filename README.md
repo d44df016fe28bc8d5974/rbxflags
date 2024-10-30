@@ -854,7 +854,8 @@ High
     "FFlagUseNewUnibarIcon": "False",
     "FFlagUseSelfieViewFlatIcon": "False",
     "FFlagUnibarRespawn": "False",
-    "FFlagEnableChromePinIntegrations2": "False"
+    "FFlagEnableChromePinIntegrations2": "False",
+    "FFlagAppChatInExperienceEnabledV647new": "False"
 }
 ```
 ### Extra + left healthbar for chrome ui Topbar
