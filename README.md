@@ -555,19 +555,6 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
-### V1 Menu
-```json
-{
-    "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuControls": "False",
-    "FFlagEnableInGameMenuModernization": "False",
-    "FFlagEnableMenuControlsABTest": "False",
-    "FFlagEnableMenuModernizationABTest": "False",
-    "FFlagEnableMenuModernizationABTest2": "False",
-    "FFlagEnableV3MenuABTest3": "False",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
-}
-```
 ### Custom Disconnect Message
 ```json
 {
@@ -831,12 +818,11 @@ High
     "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
 }
 ```
-### Burger icon
-###### adds the 2015 3 lines icon to chrome ui
-###### Only works for chromeui
+### disable burger icon
+###### removes the 2015 3 lines icon from chrome ui and reverts it to the 9 dots square
 ```json
 {
-    "FFlagEnableHamburgerIcon": "True"
+    "FFlagEnableHamburgerIcon": "False"
 }
 ```
 ### Thick healthbar
@@ -871,13 +857,6 @@ High
 ```json
 {
     "FFlagEnableAlwaysOpenUnibar2": "False"
-}
-```
-### V1 Menu Fix
-```json
-{
-    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
-    "FFlagFixReportButtonCutOff": "False"
 }
 ```
 ### Roblox events button
