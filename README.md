@@ -957,41 +957,13 @@ High
 ### Chrome UI Topbar Removal
 ```json
 {
-  "FFlagEnableInGameMenuChromeABTest2": "False",
-  "FFlagChromeBackwardsSignalAPI": "False",
-  "FFlagInGameMenuChrome": "False",
-  "FFlagEnableInGameMenuChrome": "False",
-  "FFlagEnableInGameMenuChromeABTest3": "False",
-  "FFlagEnableReportAbuseMenuRoact2": "False",
-  "FFlagEnableReportAbuseMenuRoactABTest": "False",
-  "FFlagEnableInGameMenuChromeABTest4": "False",
-  "FFlagChromeBetaFeature": "False",
-  "FFlagEnableInGameMenuControls": "False",
-  "FFlagEnableInGameMenuModernization": "False",
-  "FFlagEnableMenuControlsABTest": "False",
-  "FFlagEnableMenuModernizationABTest": "False",
-  "FFlagEnableMenuModernizationABTest2": "False",
-  "FFlagEnableV3MenuABTest3": "False",
-  "FFlagFixReportButtonCutOff": "False",
-  "FIntNewInGameMenuPercentRollout3": "0"
+    "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
 ### Hide playerlist close button on Chrome UI
 ```json
 {
     "FFlagDisablePlayerListDisplayCloseBtn": "True"
-}
-```
-### Pin Chat on Chrome UI
-```json
-{
-    "FFlagEnableChromePinnedChat": "True"
-}
-```
-### Chrome UI First Time User Experience
-```json
-{
-    "FFlagEnableChromeFTUX": "True"
 }
 ```
 ### Ragdoll Death Type
