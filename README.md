@@ -954,14 +954,6 @@ High
     "FFlagEnableBetterHapticsResultHandling": "True"
 }
 ```
-### Chrome UI TopBar
-```json
-{
-    "FFlagEnableReportAbuseMenuRoactABTest2": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "True",
-    "FFlagEnableInGameMenuChromeABTest3": "True"
-}
-```
 ### Chrome UI Topbar Removal
 ```json
 {
