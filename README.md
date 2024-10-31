@@ -555,6 +555,16 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
+### V2 Menu
+###### enables the 2020 sidebar menu
+```json
+{
+    "FIntNewInGameMenuPercentRollout3": "100",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False"
+}
+```
 ### Custom Disconnect Message
 ```json
 {
