@@ -555,6 +555,19 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
+### V1 Menu
+```json
+{
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagEnableInGameMenuModernization": "False",
+    "FFlagEnableMenuControlsABTest": "False",
+    "FFlagEnableMenuModernizationABTest": "False",
+    "FFlagEnableMenuModernizationABTest2": "False",
+    "FFlagEnableV3MenuABTest3": "False",
+    "FFlagEnableInGameMenuChromeABTest4": "False"
+}
+```
 ### Custom Disconnect Message
 ```json
 {
@@ -858,6 +871,13 @@ High
 ```json
 {
     "FFlagEnableAlwaysOpenUnibar2": "False"
+}
+```
+### V1 Menu Fix
+```json
+{
+    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
+    "FFlagFixReportButtonCutOff": "False"
 }
 ```
 ### Roblox events button
