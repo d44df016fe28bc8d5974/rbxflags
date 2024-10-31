@@ -4,33 +4,33 @@
 ###### MacOS Only
 ```json
 {
-    "FFlagDebugGraphicsPreferMetal": "True"
+"FFlagDebugGraphicsPreferMetal": "True"
 }
 ```
 ### Vulkan
 ```json
 {
-    "FFlagDebugGraphicsDisableDirect3D11": "True",
-    "FFlagDebugGraphicsPreferVulkan": "True"
+"FFlagDebugGraphicsDisableDirect3D11": "True",
+"FFlagDebugGraphicsPreferVulkan": "True"
 }
 ```
 ### OpenGL
 ```json
 {
-    "FFlagDebugGraphicsDisableDirect3D11": "True",
-    "FFlagDebugGraphicsPreferOpenGL": "True"
+"FFlagDebugGraphicsDisableDirect3D11": "True",
+"FFlagDebugGraphicsPreferOpenGL": "True"
 }
 ```
 ### Direct X 10
 ```json
 {
-    "FFlagDebugGraphicsPreferD3D11FL10": "True"
+"FFlagDebugGraphicsPreferD3D11FL10": "True"
 }
 ```
 ### Direct X 11
 ```json
 {
-    "FFlagDebugGraphicsPreferD3D11": "True"
+"FFlagDebugGraphicsPreferD3D11": "True"
 }
 ```
 
@@ -39,27 +39,27 @@
 ### Voxel Lighting (Phase 1)
 ```json
 {
-    "DFFlagDebugRenderForceTechnologyVoxel": "True"
+"DFFlagDebugRenderForceTechnologyVoxel": "True"
 }
 ```
 ### Shadowmap Lighting (Phase 2)
 ```json
 {
-    "FFlagDebugForceFutureIsBrightPhase2": "True"
+"FFlagDebugForceFutureIsBrightPhase2": "True"
 }
 ```
 ### Future Lighting (Phase 3)
 ```json
 {
-    "FFlagDebugForceFutureIsBrightPhase3": "True"
+"FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
 ### Unified lighting
 ###### this is just future but with even more shadows
 ```json
 {
-    "FFlagRenderUnifiedLighting9": "True",
-    "FFlagUnifiedLightingBetaFeature": "True"
+"FFlagRenderUnifiedLighting9": "True",
+"FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
 
@@ -68,65 +68,65 @@
 ### Makes stuff slightly brighter
 ```json
 {
-    "FFlagRenderFixFog": "True"
+"FFlagRenderFixFog": "True"
 }
 ```
 ### HyperThreading
 ```json
 {
-    "FFlagDebugCheckRenderThreading": "True",
-    "FFlagRenderDebugCheckThreading2": "True"
+"FFlagDebugCheckRenderThreading": "True",
+"FFlagRenderDebugCheckThreading2": "True"
 }
 ```
 ### Maximum Threads
 ```json
 {
-    "FIntRuntimeMaxNumOfThreads": "2400"
+"FIntRuntimeMaxNumOfThreads": "2400"
 }
 ```
 ### Minimum Threads
 ```json
 {
-    "FIntTaskSchedulerThreadMin": "3"
+"FIntTaskSchedulerThreadMin": "3"
 }
 ```
 ### Smoother Terrain
 ```json
 {
-    "FFlagDebugRenderingSetDeterministic": "True"
+"FFlagDebugRenderingSetDeterministic": "True"
 }
 ```
 ### Force Graphics Quality Level
 ```json
 {
-    "FIntRomarkStartWithGraphicQualityLevel": "1"
+"FIntRomarkStartWithGraphicQualityLevel": "1"
 }
 ```
 ### Disable Player Shadows
 ```json
 {
-    "FIntRenderShadowIntensity": "0"
+"FIntRenderShadowIntensity": "0"
 }
 ```
 ### Disable Shadows
 ###### found by Uvoltan (427392063563235328)
 ```json
 {
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+"DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+"DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
 }
 ```
 ### Preserve rendering quality with display setting
 ```json
 {
-    "DFFlagDisableDPIScale": "True"
+"DFFlagDisableDPIScale": "True"
 }
 ```
 ### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
 ###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
 ```json
 {
-    "DFIntDebugFRMQualityLevelOverride": "1"
+"DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
 <h4 align="center">FRM Levels</h4>
@@ -151,125 +151,125 @@ High
 ### Low Render Distance
 ```json
 {
-    "DFIntDebugRestrictGCDistance": "1"
+"DFIntDebugRestrictGCDistance": "1"
 }
 ```
 ### Limits light updates
 ```json
 {
-    "FIntRenderLocalLightUpdatesMax": "8",
-    "FIntRenderLocalLightUpdatesMin": "6"
+"FIntRenderLocalLightUpdatesMax": "8",
+"FIntRenderLocalLightUpdatesMin": "6"
 }
 ```
 ### Disables fade in and fade out animation every light update
 ```json
 {
-    "FIntRenderLocalLightFadeInMs": "0"
+"FIntRenderLocalLightFadeInMs": "0"
 }
 ```
 ### Makes avatars shiny 
 ###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3***
 ```json
 {
-    "DFIntRenderClampRoughnessMax": "-640000000",
-    "DFIntDebugFRMQualityLevelOverride": "6"
+"DFIntRenderClampRoughnessMax": "-640000000",
+"DFIntDebugFRMQualityLevelOverride": "6"
 }
 ```
 ### Disable PostFX
 ```json
 {
-    "FFlagDisablePostFx": "True"
+"FFlagDisablePostFx": "True"
 }
 ```
 ### Pause Voxelizer/Disable Baked Shadows
 ```json
 {
-    "DFFlagDebugPauseVoxelizer": "True"
+"DFFlagDebugPauseVoxelizer": "True"
 }
 ```
 ### Gray Sky
 ###### Only applies to games with the default skybox
 ```json
 {
-    "FFlagDebugSkyGray": "True"
+"FFlagDebugSkyGray": "True"
 }
 ```
 ### Force LOD on Meshes
 ```json
 {
-    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0"
+"DFIntCSGLevelOfDetailSwitchingDistance": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL34": "0"
 }
 ```
 ### Lighting Attenuation
 ```json
 {
-    "FFlagNewLightAttenuation": "True"
+"FFlagNewLightAttenuation": "True"
 }
 ```
 ### Enable GPULightCulling
 ###### Combine with [Lighting Attenuation](https://FastFlags/FastFlags-Collective/?tab=readme-ov-file#lighting-attenuation) for better vision
 ```json
 {
-    "FFlagFastGPULightCulling3": "True"
+"FFlagFastGPULightCulling3": "True"
 }
 ```
 ### Enable CPULightCulling
 ```json
 {
-    "FFlagDebugForceFSMCPULightCulling": "True"
+"FFlagDebugForceFSMCPULightCulling": "True"
 }
 ```
 ### Frame Buffer
 ###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
 ```json
 {
-    "DFIntMaxFrameBufferSize": "4"
+"DFIntMaxFrameBufferSize": "4"
 }
 ```
 ### Low Quallity Terrain Textures
 ###### 4 for less quality 16, 32, 64 for higher quality
 ```json
 {
-    "FIntTerrainArraySliceSize": "4"
+"FIntTerrainArraySliceSize": "4"
 }
 ```
 ### High Quality Textures 
 ###### *[1-3]*
 ```json
 {
-    "DFFlagTextureQualityOverrideEnabled": "True",
-    "DFIntTextureQualityOverride": "3"
+"DFFlagTextureQualityOverrideEnabled": "True",
+"DFIntTextureQualityOverride": "3"
 }
 ```
 ### Lower Quality Textures 
 ###### *[1-3]*
 ```json
 {
-    "DFIntPerformanceControlTextureQualityBestUtility": "-1"
+"DFIntPerformanceControlTextureQualityBestUtility": "-1"
 }
 ```
 ### No avatar textures
 ```json
 {
-    "DFIntTextureCompositorActiveJobs": "0"
+"DFIntTextureCompositorActiveJobs": "0"
 }
 ```
 ### Texture Manager
 ###### 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything
 ```json
 {
-    "FIntDebugTextureManagerSkipMips": "-1"
+"FIntDebugTextureManagerSkipMips": "-1"
 }
 ```
 ### Remove Grass
 ```json
 {
-    "FIntFRMMinGrassDistance": "0",
-    "FIntFRMMaxGrassDistance": "0",
-    "FIntRenderGrassDetailStrands": "0"
+"FIntFRMMinGrassDistance": "0",
+"FIntFRMMaxGrassDistance": "0",
+"FIntRenderGrassDetailStrands": "0"
 }
 ```
 ### Increased Grass Motion
@@ -277,14 +277,14 @@ High
 ###### found by spectro (145596270726217728) in Bloxstrap stuff
 ```json
 {
-    "FIntGrassMovementReducedMotionFactor": "999"
+"FIntGrassMovementReducedMotionFactor": "999"
 }
 ```
 ### No Grass Motion
 ###### found by spectro (145596270726217728) in Bloxstrap stuff
 ```json
 {
-    "FIntGrassMovementReducedMotionFactor": "0"
+"FIntGrassMovementReducedMotionFactor": "0"
 }
 ```
 ### Move Pre-Render Phase [~25% Performance Boost]
@@ -295,53 +295,53 @@ High
 ###### @blobanium
 ```json
 {
-    "FFlagMovePrerender": "True"
+"FFlagMovePrerender": "True"
 }
 ```
 ### Force MSAA 
 ###### *[0, 1, 2, 4, 8]*
 ```json
 {
-    "FIntDebugForceMSAASamples": "4"
+"FIntDebugForceMSAASamples": "4"
 }
 ```
 ### ShadowMap Bias 
 ###### ***[Future & ShadowMap]***
 ```json
 {
-    "FIntRenderShadowmapBias": "75"
+"FIntRenderShadowmapBias": "75"
 }
 ```
 ### Limits number of animations being played
 ###### 0 removes most player animations, 1-5 removes the walk animation after jumping
 ```json
 {
-    "DFIntMaxActiveAnimationTracks": "0"
+"DFIntMaxActiveAnimationTracks": "0"
 }
 ```
 ### Render Occlusion Culling
 ###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
 ```json
 {
-    "DFFlagUseVisBugChecks": "True",
-    "FFlagEnableVisBugChecks27": "True",
-    "FFlagVisBugChecksThreadYield": "True",
-    "FIntEnableVisBugChecksHundredthPercent27": "100"
+"DFFlagUseVisBugChecks": "True",
+"FFlagEnableVisBugChecks27": "True",
+"FFlagVisBugChecksThreadYield": "True",
+"FIntEnableVisBugChecksHundredthPercent27": "100"
 }
 ```
 ### Increased Particles on low graphics
 ###### @teeenoob
 ```json
 {
-    "FFlagDebugDeterministicParticles" : "True"
+"FFlagDebugDeterministicParticles" : "True"
 }
 ```
 ### No clouds/Sky
 ###### found by Bloxy (832597017976504330), 5070 (1272494435690610800)
 ```json
 {
-    "FFlagRenderNoLowFrmBloom": "false",
-    "FFlagFRMRefactor": "false"
+"FFlagRenderNoLowFrmBloom": "false",
+"FFlagFRMRefactor": "false"
 }
 ```
 <h1 align="center">Quality of Life</h1>
@@ -349,29 +349,29 @@ High
 ### Disable Captures Keybind
 ```json
 {
-    "FFlagEnableCapturesHotkeyExperiment_v4": "False"
+"FFlagEnableCapturesHotkeyExperiment_v4": "False"
 }
 ```
 ### FPS Unlocker in Roblox Menu Settings
 ```json
 {
-    "FFlagGameBasicSettingsFramerateCap5": "True",
-    "DFIntTaskSchedulerTargetFps": "0"
+"FFlagGameBasicSettingsFramerateCap5": "True",
+"DFIntTaskSchedulerTargetFps": "0"
 }
 ```
 ### Unlimited FPS Unlocker
 ###### From: https://discord.gg/nKjV3mGq6R
 ```json
 {
-    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
-    "DFIntTaskSchedulerTargetFps": "9999"
+"FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+"DFIntTaskSchedulerTargetFps": "9999"
 }
 ```
 ### GUI Hiding Toggles
 ```json
 {
-    "FFlagUserShowGuiHideToggles": "True",
-    "GuiHidingApiSupport2": "True"
+"FFlagUserShowGuiHideToggles": "True",
+"GuiHidingApiSupport2": "True"
 }
 ```
 ### Hide guis
@@ -384,61 +384,61 @@ High
 | Ctrl + Shift + N  | Toggles player names, and other BillboardGuis that show up above a player |
 ```json
 {
-    "DFIntCanHideGuiGroupId": "ID"
+"DFIntCanHideGuiGroupId": "ID"
 }
 ```
 ### Remove layered clothing related for searching in lua app catalog
 ###### From: https://discord.gg/nKjV3mGq6R
 ```json
 {
-    "FStringAXCategories": "ClassicShirts.ClassicTShirts.ClassicPants"
+"FStringAXCategories": "ClassicShirts.ClassicTShirts.ClassicPants"
 }
 ```
 ### Disable Fullscreen Title Bar
 ```json
 {
-    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+"FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
 }
 ```
 ### Disable In-game Advertisements
 ```json
 {
-    "FFlagAdServiceEnabled": "False"
+"FFlagAdServiceEnabled": "False"
 }
 ```
 ### Disable Telemetry 
 ```json
 {
-    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
-    "FFlagDebugDisableTelemetryEphemeralStat": "True",
-    "FFlagDebugDisableTelemetryEventIngest": "True",
-    "FFlagDebugDisableTelemetryPoint": "True",
-    "FFlagDebugDisableTelemetryV2Counter": "True",
-    "FFlagDebugDisableTelemetryV2Event": "True",
-    "FFlagDebugDisableTelemetryV2Stat": "True",
-    "FStringTencentAuthPath": "null"
+"FFlagDebugDisableTelemetryEphemeralCounter": "True",
+"FFlagDebugDisableTelemetryEphemeralStat": "True",
+"FFlagDebugDisableTelemetryEventIngest": "True",
+"FFlagDebugDisableTelemetryPoint": "True",
+"FFlagDebugDisableTelemetryV2Counter": "True",
+"FFlagDebugDisableTelemetryV2Event": "True",
+"FFlagDebugDisableTelemetryV2Stat": "True",
+"FStringTencentAuthPath": "null"
 }
 ```
 ### Surf the web inside of Roblox
 ###### Click the Beta badge or the 13+ badge to open the webview browser.
 ```json
 {
-    "FFlagTopBarUseNewBadge": "True",
-    "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
-    "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
+"FFlagTopBarUseNewBadge": "True",
+"FStringTopBarBadgeLearnMoreLink": "https://google.com/",
+"FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
 }
 ```
 ### MTU 
 ```json
 {
-    "DFIntConnectionMTUSize": "MTU_HERE"
+"DFIntConnectionMTUSize": "MTU_HERE"
 }
 ```
 ### No Internet Disconnect 
 ###### *[You will still be kicked but the message wont show.]*
 ```json
 {
-    "DFFlagDebugDisableTimeoutDisconnect": "True"
+"DFFlagDebugDisableTimeoutDisconnect": "True"
 }
 ```
 ### Adjust Default Timeout Time
@@ -446,83 +446,83 @@ High
 ###### @dis_spencer
 ```json
 {
-    "DFIntDefaultTimeoutTimeMs": "10000"
+"DFIntDefaultTimeoutTimeMs": "10000"
 }
 ```
 ### Quick Game Launch 
 ###### *[BUGGY]*
 ```json
 {
-    "FFlagEnableQuickGameLaunch": "True"
+"FFlagEnableQuickGameLaunch": "True"
 }
 ```
 ### Disable In-Game Purchases
 ```json
 {
-    "DFFlagOrder66": "True"
+"DFFlagOrder66": "True"
 }
 ```
 ### Disable Chat
 ```json
 {
-    "FFlagDebugForceChatDisabled": "True"
+"FFlagDebugForceChatDisabled": "True"
 }
 ```
 ### Disable Dynamic Heads Animations
 ###### https://roblox.fandom.com/wiki/Dynamic_Head
 ```json
 {
-    "DFIntAnimationLodFacsDistanceMin": "0",
-    "DFIntAnimationLodFacsDistanceMax": "0",
-    "DFIntAnimationLodFacsVisibilityDenominator": "0"
+"DFIntAnimationLodFacsDistanceMin": "0",
+"DFIntAnimationLodFacsDistanceMax": "0",
+"DFIntAnimationLodFacsVisibilityDenominator": "0"
 }
 ```
 ### Automatically unmutes your mic on join (VC)
 ```json
 {
-    "FFlagDebugDefaultChannelStartMuted": "False"
+"FFlagDebugDefaultChannelStartMuted": "False"
 }
 ```
 ### opt-out Experience Language
 ###### Removes the Experience Language option in settings
 ```json
 {
-    "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
+"FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
 }
 ```
 ### Lets you change the zoom out limit
 ###### Only applies to games that haven't changed the default zoom limit
 ```json
 {
-    "FIntCameraMaxZoomDistance": "9999"
+"FIntCameraMaxZoomDistance": "9999"
 }
 ```
 ### Exclusive Fullscreen
 ```json
 {
-    "FFlagHandleAltEnterFullscreenManually": "False"
+"FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
 ### Reduced avatar item particles in first person
 ###### This just reduces the particle effect transparency when you go into first person which helps with visibility.
 ```json
 {
-    "FFlagUserHideCharacterParticlesInFirstPerson": "True"
+"FFlagUserHideCharacterParticlesInFirstPerson": "True"
 }
 ```
 ### Increased preloading asset count
 ###### Load into games faster
 ```json
 {
-    "DFIntNumAssetsMaxToPreload": "9999999",
-    "DFIntAssetPreloading": "9999999"
+"DFIntNumAssetsMaxToPreload": "9999999",
+"DFIntAssetPreloading": "9999999"
 }
 ```
 ### 5 decimal digits limit for camera sensitivity
 ###### basically like idk 8 months ago roblox added a 3 decimal digits limit, some people that I know used those extra digits
 ```json
 {
-    "FFlagFixSensitivityTextPrecision": "False"
+"FFlagFixSensitivityTextPrecision": "False"
 }
 ```
 ### Disable voicechat
@@ -530,7 +530,7 @@ High
 ###### [TIP] Use PlaceFilter for specific games
 ```json
 {
-    "DFFlagVoiceChat4": "False"
+"DFFlagVoiceChat4": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals</h1>
@@ -540,236 +540,248 @@ High
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
 ```json
 {
-    "FFlagFixReducedMotionStuckIGM2": "True"
+"FFlagFixReducedMotionStuckIGM2": "True"
 }
 ```
 ### Revert "Charts" back to Discovery
 ```json
 {
-    "FFlagLuaAppChartsPageRenameIXP": "False"
+"FFlagLuaAppChartsPageRenameIXP": "False"
 }
 ```
 ### Disable Sidebar Text (Default: True)
 ```json
 {
-    "FFlagEnableNavBarLabels3": "False"
+"FFlagEnableNavBarLabels3": "False"
+}
+```
+### V1 Menu
+```json
+{
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagEnableInGameMenuModernization": "False",
+    "FFlagEnableMenuControlsABTest": "False",
+    "FFlagEnableMenuModernizationABTest": "False",
+    "FFlagEnableMenuModernizationABTest2": "False",
+    "FFlagEnableV3MenuABTest3": "False"
 }
 ```
 ### Custom Disconnect Message
 ```json
 {
-    "FFlagReconnectDisabled": "True",
-    "FStringReconnectDisabledReason": "You're stupid and I hate you"
+"FFlagReconnectDisabled": "True",
+"FStringReconnectDisabledReason": "You're stupid and I hate you"
 }
 ```
 ### Display FPS
 ```json
 {
-    "FFlagDebugDisplayFPS": "True"
+"FFlagDebugDisplayFPS": "True"
 }
 ```
 ### Verified Badge
 ###### clientsided, only you can see the badge
 ```json
 {
-    "FStringWhitelistVerifiedUserId": "UserID"
+"FStringWhitelistVerifiedUserId": "UserID"
 }
 ```
 ### Verified Badge on everyone
 ###### clientsided, only you can see the badge
 ```json
 {
-    "FFlagOverridePlayerVerifiedBadge": "True"
+"FFlagOverridePlayerVerifiedBadge": "True"
 }
 ```
 ###  Neon Rainbow Guis
 ```json
 {
-    "FFlagDebugDisplayUnthemedInstances": "True"
+"FFlagDebugDisplayUnthemedInstances": "True"
 }
 ```
 ### Revert new invite menu
 ```json
 {
-    "FFlagEnableNewInviteMenuIXP2": "False"
+"FFlagEnableNewInviteMenuIXP2": "False"
 }
 ```
 ### Revert spacing on errors
 ###### @kezcn
 ```json
 {
-    "FFlagErrorPromptResizesHeight": "False"
+"FFlagErrorPromptResizesHeight": "False"
 }
 ```
 ### Remove Disconnect Blur/Loading Blur
 ```json
 {
-    "FIntRobloxGuiBlurIntensity": "0"
+"FIntRobloxGuiBlurIntensity": "0"
 }
 ```
 ### Disable New Chat Translation Settings
 ```json
 {
-    "FFlagChatTranslationSettingEnabled3": "False"
+"FFlagChatTranslationSettingEnabled3": "False"
 }
 ```
 ### New Camera Mode
 ```json
 {
-    "FFlagNewCameraControls": "True"
+"FFlagNewCameraControls": "True"
 }
 ```
 ### Custom MicroProfiler Scale
 ```json
 {
-    "DFIntMicroProfilerDpiScaleOverride":  "100"
+"DFIntMicroProfilerDpiScaleOverride":  "100"
 }
 ```
 ### Set Custom Font Size
 ```json
 {
-    "FIntFontSizePadding": "1"
+"FIntFontSizePadding": "1"
 }
 ```
 ### Adjust Scroll Speed
 ```json
 {
-    "FIntScrollWheelDeltaAmount": "140"
+"FIntScrollWheelDeltaAmount": "140"
 }
 ```
 ### Set Custom Kick Message Length
 ```json
 {
-    "FIntMaxKickMessageLength": "1"
+"FIntMaxKickMessageLength": "1"
 }
 ```
 ### Darker Dark Theme
 ```json
 {
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagUIBloxUseNewThemeColorPalettes": "True"
+"FFlagLuaAppUseUIBloxColorPalettes1": "True",
+"FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
 ### Blue theme
 ```json
 {
-    "FFlagLuaAppEnableFoundationColors6": "True"
+"FFlagLuaAppEnableFoundationColors6": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
 ```json
 {
-    "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
+"FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
 }
 ```
 ### Subscriptions Page
 ```json
 {
-    "FFlagLuaAppDevSubsEnabled": "True"
+"FFlagLuaAppDevSubsEnabled": "True"
 }
 ```
 ### Overlay that shows what you type 
 ```json
 {
-    "FFlagDebugTextBoxServiceShowOverlay": "True"
+"FFlagDebugTextBoxServiceShowOverlay": "True"
 }
 ```
 ### Ammount of lines to show at once for above
 ```json
 {
-    "DFIntTextBoxServiceHistorySize": "1"
+"DFIntTextBoxServiceHistorySize": "1"
 }
 ```
 ### Hides gui
 ```json
 {
-    "FFlagDebugAdornsDisabled":  "True"
+"FFlagDebugAdornsDisabled":  "True"
 }
 ```
 ### Dont Render UI
 ```json
 {
-    "FFlagDebugDontRenderUI": "True"
+"FFlagDebugDontRenderUI": "True"
 }
 ```
 ### Dont Render Screen GUIs
 ```json
 {
-    "FFlagDebugDontRenderScreenGui": "True"
+"FFlagDebugDontRenderScreenGui": "True"
 }
 ```
 ### Disable Autocomplete
 ```json
 {
-    "FFlagEnableCommandAutocomplete": "False"
+"FFlagEnableCommandAutocomplete": "False"
 }
 ```
 ### Break Top Bar Menu
 ```json
 {
-    "FStringNewInGameMenuForceds": "UserID",
-    "FFlagEnableInGameMenuChrome": "True"
+"FStringNewInGameMenuForceds": "UserID",
+"FFlagEnableInGameMenuChrome": "True"
 }
 ```
 ### Break Collectible Icon
 ```json
 {
-    "FFlagDisplayCollectiblesIcon": "False"
+"FFlagDisplayCollectiblesIcon": "False"
 }
 ```
 ### Disable Bubble Chat
 ```json
 {
-    "FFlagEnableBubbleChatFromChatService": "False"
+"FFlagEnableBubbleChatFromChatService": "False"
 }
 ```
 ### Disable Camera & Selfview
 ```json
 {
-    "FFlagSelfieViewEnabled": "True"
+"FFlagSelfieViewEnabled": "True"
 }
 ```
 ### Disable Avatar Chat
 ```json
 {
-    "FFlagAvatarChatServiceEnabled3": "False"
+"FFlagAvatarChatServiceEnabled3": "False"
 }
 ```
 ### Remove VC Beta Badge
 ```json
 {
-    "FFlagVoiceBetaBadge": "False",
-    "FFlagTopBarUseNewBadge": "False",
-    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
-    "FFlagControlBetaBadgeWithGuac": "False",
-    "FStringVoiceBetaBadgeLearnMoreLink": "null"
+"FFlagVoiceBetaBadge": "False",
+"FFlagTopBarUseNewBadge": "False",
+"FFlagBetaBadgeLearnMoreLinkFormview": "False",
+"FFlagControlBetaBadgeWithGuac": "False",
+"FStringVoiceBetaBadgeLearnMoreLink": "null"
 }
 ```
 ### VR Controller transparency
 ```json
 {
-    "FIntVRTouchControllerTransparency": "0"
+"FIntVRTouchControllerTransparency": "0"
 }
 ```
 ### Disable VR Collision Fade
 ###### found by Sky (364112742153584640) in Bloxstrap stuff
 ```json
 {
-    "FFlagViewCollisionFadeToBlackInVR": "False"
+"FFlagViewCollisionFadeToBlackInVR": "False"
 }
 ```
 ### Limit Videos Playing
 ###### @kezcn
 ```json
 {
-    "DFIntVideoMaxNumberOfVideosPlaying": "0"
+"DFIntVideoMaxNumberOfVideosPlaying": "0"
 }
 ```
 ### Disable DSA Reporting In-game
 ###### @kezcn
 ```json
 {
-    "FFlagDSAIllegalContentReporting2": "False"
+"FFlagDSAIllegalContentReporting2": "False"
 }
 ```
 ### Desktop App Dev Tools
@@ -777,14 +789,14 @@ High
 ###### @kezcn
 ```json
 {
-    "FFlagDebugEnableNewWebView2DevTool": "True"
+"FFlagDebugEnableNewWebView2DevTool": "True"
 }
 ```
 ### Show All Error Strings
 ###### makes you unable to join games and shows you every join error message
 ```json
 {
-    "FFlagDebugEnableErrorStringTesting": "True"
+"FFlagDebugEnableErrorStringTesting": "True"
 }
 ```
 ### Customize chat translation settings
@@ -793,7 +805,7 @@ High
 ###### @Skylan
 ```json
 {
-    "FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
+"FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
 }
 ```
 ### Remove the "automatically translation" message
@@ -801,21 +813,21 @@ High
 ###### @toofastforboo
 ```json
 {
-    "FFlagChatTranslationEnableSystemMessage": "False"
+"FFlagChatTranslationEnableSystemMessage": "False"
 }
 ```
 ### remove the vr toggle
 ###### removes the vr toggle from the escape menu
 ```json
 {
-    "FFlagAlwaysShowVRToggleV3": "False"
+"FFlagAlwaysShowVRToggleV3": "False"
 }
 ```
 ### cleaner desktop home page
 ###### Tho it wont remove the Recommended for you and Sponsored sections but it will remove the Recommended section (the insanely long one)
 ```json
 {
-    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
+"FIntGameGridFlexFeedItemTileNumPerFeed": "0"
 }
 ```
 ### Burger icon
@@ -823,55 +835,62 @@ High
 ###### Only works for chromeui
 ```json
 {
-    "FFlagEnableHamburgerIcon": "True"
+"FFlagEnableHamburgerIcon": "True"
 }
 ```
 ### Thick healthbar
 ###### Disabling it will completly remove the healthbar
 ```json
 {
-    "FFlagUpdateHealthBar": "True"
+"FFlagUpdateHealthBar": "True"
 }
 ```
 ### Revert the new chrome ui to the old one
 ```json
 {
-    "FFlagEnableHamburgerIcon": "False",
-    "FFlagEnableUnibarV4IA": "False",
-    "FFlagEnableAlwaysOpenUnibar2": "False",
-    "FFlagUseNewUnibarIcon": "False",
-    "FFlagUseSelfieViewFlatIcon": "False",
-    "FFlagUnibarRespawn": "False",
-    "FFlagEnableChromePinIntegrations2": "False",
-    "FFlagAppChatInExperienceEnabledV647new": "False"
+"FFlagEnableHamburgerIcon": "False",
+"FFlagEnableUnibarV4IA": "False",
+"FFlagEnableAlwaysOpenUnibar2": "False",
+"FFlagUseNewUnibarIcon": "False",
+"FFlagUseSelfieViewFlatIcon": "False",
+"FFlagUnibarRespawn": "False",
+"FFlagEnableChromePinIntegrations2": "False",
+"FFlagAppChatInExperienceEnabledV647new": "False"
 }
 ```
 ### Extra + left healthbar for chrome ui Topbar
 ```json
 {
-    "FFlagEnableUnibarMaxDefaultOpen": "True",
-    "FFlagUpdateHealthBar": "False",
-    "FFlagUseNewPinIcon": "False"
+"FFlagEnableUnibarMaxDefaultOpen": "True",
+"FFlagUpdateHealthBar": "False",
+"FFlagUseNewPinIcon": "False"
 }
 ```
 ### Fix broken health bar
 ```json
 {
-    "FFlagEnableAlwaysOpenUnibar2": "False"
+"FFlagEnableAlwaysOpenUnibar2": "False"
+}
+```
+### V1 Menu Fix
+```json
+{
+    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
+    "FFlagFixReportButtonCutOff": "False"
 }
 ```
 ### Roblox events button
 ###### remove FStringPlatformEventUrl to have the default url
 ```json
 {
-    "FFlagPlatformEventEnabled2": "True",
-    "FStringPlatformEventUrl": "AnyLinkHere"
+"FFlagPlatformEventEnabled2": "True",
+"FStringPlatformEventUrl": "AnyLinkHere"
 }
 ```
 ### Mini webview
 ```json
 {
-    "FFlagWebViewProtocol": "False"
+"FFlagWebViewProtocol": "False"
 }
 ```
 ### Google guidelines
@@ -879,7 +898,7 @@ High
 ###### desktop app only
 ```json
 {
-    "FFlagWebViewProtocol": "False"
+"FFlagWebViewProtocol": "False"
 }
 ```
 ### No opacity to Chrome UI
@@ -888,7 +907,7 @@ High
 ###### found by satlybpro (708463225578192968) in Bloxstrap stuff
 ```json
 {
-    "FFlagChromeUsePreferredTransparency": "False"
+"FFlagChromeUsePreferredTransparency": "False"
 }
 ```
 ### Preferred text size scale
@@ -896,8 +915,8 @@ High
 ###### found by Sky (364112742153584640) in Bloxstrap stuff
 ```json
 {
-     "FFlagEnablePreferredTextSizeScale": "True",
-     "FFlagEnablePreferredTextSizeSettingInMenus2": "True"
+"FFlagEnablePreferredTextSizeScale": "True",
+"FFlagEnablePreferredTextSizeSettingInMenus2": "True"
 }
 ```
 ### Explorer Redesign
@@ -905,8 +924,8 @@ High
 ###### found by easternbloxxer (534419428368973835) in Bloxstrap stuff
 ```json
 {
-    "FFlagExplorerPropertiesUseRDLColors": "True",
-    "FFlagExplorerPropertiesUseStyledObject": "True"
+"FFlagExplorerPropertiesUseRDLColors": "True",
+"FFlagExplorerPropertiesUseStyledObject": "True"
 }
 ```
 ### Mute button redesign (VC)
@@ -914,15 +933,16 @@ High
 ###### @kezcn
 ```json
 {
-    "FFlagMuteTogglesEnableIXP": "False"
+"FFlagMuteTogglesEnableIXP": "False"
 }
 ```
 ### Removes the new ingame chrome chat button
+###### if you use v1 menu, this reverts the chat icon to the old one
 ###### if you don't use chromeui, this will revert the chat icon to the old one
 ###### @kezcn
 ```json
 {
-    "FFlagAppChatInExperienceEnabledV647new": "False"
+"FFlagAppChatInExperienceEnabledV647new": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
@@ -930,67 +950,67 @@ High
 ### Hat positioning Update
 ```
 {
-    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True"
+   "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True"
 }
 ```
 ### Disable Haptics Option
 ```json
 {
-    "FFlagAddHapticsToggle": "False"
+"FFlagAddHapticsToggle": "False"
 }
 ```
 ### Enable Better Haptics
 ```json
 {
-    "FFlagEnableBetterHapticsResultHandling": "True"
+"FFlagEnableBetterHapticsResultHandling": "True"
 }
 ```
 ### Chrome UI TopBar
 ```json
 {
-    "FFlagEnableReportAbuseMenuRoactABTest2": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "True",
-    "FFlagEnableInGameMenuChromeABTest3": "True"
+"FFlagEnableReportAbuseMenuRoactABTest2": "True",
+"FFlagEnableInGameMenuChromeABTest2": "True",
+"FFlagEnableInGameMenuChromeABTest3": "True"
 }
 ```
 ### Chrome UI Topbar Removal
 ```json
 {
-  "FFlagEnableInGameMenuChromeABTest2": "False",
-  "FFlagChromeBackwardsSignalAPI": "False",
-  "FFlagInGameMenuChrome": "False",
-  "FFlagEnableInGameMenuChrome": "False",
-  "FFlagEnableInGameMenuChromeABTest3": "False",
-  "FFlagEnableReportAbuseMenuRoact2": "False",
-  "FFlagEnableReportAbuseMenuRoactABTest": "False",
-  "FFlagEnableInGameMenuChromeABTest4": "False",
-  "FFlagChromeBetaFeature": "False",
-  "FFlagEnableInGameMenuControls": "False",
-  "FFlagEnableInGameMenuModernization": "False",
-  "FFlagEnableMenuControlsABTest": "False",
-  "FFlagEnableMenuModernizationABTest": "False",
-  "FFlagEnableMenuModernizationABTest2": "False",
-  "FFlagEnableV3MenuABTest3": "False",
-  "FFlagFixReportButtonCutOff": "False",
-  "FIntNewInGameMenuPercentRollout3": "0"
+"FFlagEnableInGameMenuChromeABTest2": "False",
+"FFlagChromeBackwardsSignalAPI": "False",
+"FFlagInGameMenuChrome": "False",
+"FFlagEnableInGameMenuChrome": "False",
+"FFlagEnableInGameMenuChromeABTest3": "False",
+"FFlagEnableReportAbuseMenuRoact2": "False",
+"FFlagEnableReportAbuseMenuRoactABTest": "False",
+"FFlagEnableInGameMenuChromeABTest4": "False",
+"FFlagChromeBetaFeature": "False",
+"FFlagEnableInGameMenuControls": "False",
+"FFlagEnableInGameMenuModernization": "False",
+"FFlagEnableMenuControlsABTest": "False",
+"FFlagEnableMenuModernizationABTest": "False",
+"FFlagEnableMenuModernizationABTest2": "False",
+"FFlagEnableV3MenuABTest3": "False",
+"FFlagFixReportButtonCutOff": "False",
+"FIntNewInGameMenuPercentRollout3": "0"
 }
 ```
 ### Hide playerlist close button on Chrome UI
 ```json
 {
-    "FFlagDisablePlayerListDisplayCloseBtn": "True"
+"FFlagDisablePlayerListDisplayCloseBtn": "True"
 }
 ```
 ### Pin Chat on Chrome UI
 ```json
 {
-    "FFlagEnableChromePinnedChat": "True"
+"FFlagEnableChromePinnedChat": "True"
 }
 ```
 ### Chrome UI First Time User Experience
 ```json
 {
-    "FFlagEnableChromeFTUX": "True"
+"FFlagEnableChromeFTUX": "True"
 }
 ```
 ### Ragdoll Death Type
@@ -998,7 +1018,7 @@ High
 ###### I tried `Ragdoll` to see if anything would happen lol this is how i found this (found this long time ago)
 ```json
 {
-    "DFStringDefaultAvatarDeathType": "Ragdoll"
+"DFStringDefaultAvatarDeathType": "Ragdoll"
 }
 ```
 <h1 align="center">Audio Related</h1>
@@ -1007,77 +1027,77 @@ High
 ###### default: [Min 7 Max 80]
 ```json
 {
-    "DFIntVoiceChatRollOffMinDistance": "7",
-    "DFIntVoiceChatRollOffMaxDistance": "80"
+"DFIntVoiceChatRollOffMinDistance": "7",
+"DFIntVoiceChatRollOffMaxDistance": "80"
 }
 ```
 ### Sounds use physical velocity and become distorted
 ###### <2017
 ```json
 {
-    "FFlagSoundsUsePhysicalVelocity": "True"
+"FFlagSoundsUsePhysicalVelocity": "True"
 }
 ```
 ### Audio Occlusion
 ```json
 {
-    "FFlagDebugEnableDirectAudioOcclusion2": "True"
+"FFlagDebugEnableDirectAudioOcclusion2": "True"
 }
 ```
 ### Limit audios that are being played
 ```json
 {
-    "DFIntMaxLoadableAudioChannelCount": "1"
+"DFIntMaxLoadableAudioChannelCount": "1"
 }
 ```
 ### Mess with voice chat volume
 ###### default 1000
 ```json
 {
-    "DFIntVoiceChatVolumeThousandths": "100000"
+"DFIntVoiceChatVolumeThousandths": "100000"
 }
 ```
 ### No sounds
 ```json
 {
-    "FFlagDebugRomarkMockingAudioDevices": "True"
+"FFlagDebugRomarkMockingAudioDevices": "True"
 }
 ```
 
 ### Remove Parental Controls Tab
 ```json
 {
-    "FFlagLuaAppsEnableParentalControlsTab": "False"
+"FFlagLuaAppsEnableParentalControlsTab": "False"
 }
 ```
 ### Legacy Search
 ```json
 {
-    "FFlagAXSearchLandingPageIXPEnabled4": "False"
+"FFlagAXSearchLandingPageIXPEnabled4": "False"
 }
 ```
 ### Disable Profile Picture Customization
 ```json
 {
-    "FFlagAXDefaultAvatarToShopEnabled3": "False"
+"FFlagAXDefaultAvatarToShopEnabled3": "False"
 }
 ```
 ### old luaapp chat button
 ```json
 {
-    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+"FStringNewChatTabExperimentLayerValue": "2024MUSIC"
 }
 ```
 ### Disable Toast Notifications
 ```json
 {
-    "FFlagToastNotificationsProtocolEnabled2": "False"
+"FFlagToastNotificationsProtocolEnabled2": "False"
 }
 ```
 ### Rename Communications to Voice Enabled
 ```json
 {
-    "FFlagGameDetailsDecoupledCommunication": "False"
+"FFlagGameDetailsDecoupledCommunication": "False"
 }
 ```
 <h1 align="center">Physics (Abusive)</h1>
@@ -1085,49 +1105,49 @@ High
 ### Tool Desync
 ```json
 {
-    "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+"DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
 }
 ```
 ### Remap R6 to R15 Rigs/Weird Movement
 ```json
 {
-    "FFlagRemapAnimationR6ToR15Rig": "True"
+"FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
 ### Weird Leg Movement
 ```json
 {
-    "DFFlagAnimatorPostProcessIK": "True"
+"DFFlagAnimatorPostProcessIK": "True"
 }
 ```
 ### Adjust Hip Height Clamps
 ###### https://www.roblox.com/bundles/63/Mage-Animation-Package
 ```json
 {
-    "DFIntHipHeightClamp": "-48"
+"DFIntHipHeightClamp": "-48"
 }
 ```
 ### Random High Jumps
 ###### https://youtu.be/2JkA4hWCAWw
 ```json
 {
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+"FFlagSimAdaptiveTimesteppingDefault2": "True",
+"DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
 ### Drunk
 ```json
 {
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+"FFlagSimAdaptiveTimesteppingDefault2": "True",
+"DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+"DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
 ### No Animations
 ###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
 ```json
 {
-    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
+"DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
 ```
 ### Delayed Animations
@@ -1137,15 +1157,15 @@ High
 ###### [video](https://streamable.com/68hru3)
 ```json
 {
-    "FFlagProcessAnimationLooped": "False"
+"FFlagProcessAnimationLooped": "False"
 }
 ```
 ### Stick unanchored parts to you
 ##### - = up, + = down
 ```json
 {
-    "DFIntSolidFloorPercentForceApplication": "-1000",
-    "DFIntNonSolidFloorPercentForceApplication": "-5000"
+"DFIntSolidFloorPercentForceApplication": "-1000",
+"DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
 ### Max Raycast Distance
@@ -1153,46 +1173,46 @@ High
 ###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
 ```json
 {
-    "DFIntRaycastMaxDistance": "3"
+"DFIntRaycastMaxDistance": "3"
 }
 ```
 ### Possible Super Jump
 ```json
 {
-    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
+"DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
 }
 ```
 ### Change DataSender Rate
 ###### a.k.a does not let you load games
 ```json
 {
-    "DFIntDataSenderRate": "-1"
+"DFIntDataSenderRate": "-1"
 }
 ```
 ### Disable Touch Events
 ```json
 {
-    "DFIntTouchSenderMaxBandwidthBps": "-1"
+"DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
 ### Fake Lag
 ```json
 {
-    "DFIntS2PhysicsSenderRate": "1"
+"DFIntS2PhysicsSenderRate": "1"
 }
 ```
 ### Invisible 1
 ###### **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
 ```json
 {
-    "DFIntS2PhysicsSenderRate": "-30"
+"DFIntS2PhysicsSenderRate": "-30"
 }
 ```
 ### Invisible 2
 ###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](https://docs.google.com/document/d/1_kQr-tkc97lcg7ZvFfJdt8UzaziIfwuJPrzR6sTOLHo/)
 ```json
 {
-    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
+"DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
 }
 ```
 ### Teleport ragdolled bodies to 0,0,0
@@ -1200,68 +1220,68 @@ High
 ###### the teleporting is clientsided, no one else can see them
 ```json
 {
-    "DFIntGameNetLocalSpaceMaxSendIndex": "10000"
+"DFIntGameNetLocalSpaceMaxSendIndex": "10000"
 }
 ```
 ### Invisible 3
 ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
 ```json
 {
-    "DFIntPhysicsSenderMaxBandwidthBps": "1",
-    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
+"DFIntPhysicsSenderMaxBandwidthBps": "1",
+"DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
 }
 ```
 ### Clientsided Invisible
 ```json
 {
-    "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
+"FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
 ### Slowmotion
 ```json
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1"
+"DFIntMaxMissedWorldStepsRemembered": "1"
 }
 ```
 ### Warp
 ###### to warp, first walk and continue walking then hold the white window bar and untab
 ```json
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1000"
+"DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
 ### Noclip 1
 ###### Adjust the value so you don't fall through the ground
 ```json
 {
-    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+"DFIntAssemblyExtentsExpansionStudHundredth": "-50"
 }
 ```
 ### Noclip 2
 ###### Adjust the value so you don't fall through the ground
 ```json
 {
-    "DFIntSimBroadPhasePairCountMax": "50"
+"DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```json
 {
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+"DFIntMaxAltitudePDStickHipHeightPercent": "-200"
 }
 ```
 ### Wallglide
 ```json
 {
-    "DFIntUnstickForceAttackInTenths": "-4"
+"DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
 ### Slide on Terrain/Meshes
 ###### @tyetonix
 ```json
 {
-    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+"DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
 }
 ```
 ### Network Ownership
@@ -1269,9 +1289,9 @@ High
 ###### this might get you banned in some games with anticheats (Limbobbia)
 ```json
 {
-    "DFIntMinClientSimulationRadius": "2147000000",
-    "DFIntMinimalSimRadiusBuffer": "2147000000",
-    "DFIntMaxClientSimulationRadius": "2147000000"
+"DFIntMinClientSimulationRadius": "2147000000",
+"DFIntMinimalSimRadiusBuffer": "2147000000",
+"DFIntMaxClientSimulationRadius": "2147000000"
 }
 ```
 <h1 align="center">Abusive Visuals</h1>
@@ -1279,13 +1299,13 @@ High
 ### Semi Fullbright
 ```json
 {
-    "FFlagFastGPULightCulling3": "True",
-    "FIntRenderShadowIntensity": "0",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-    "FFlagNewLightAttenuation": "True",
-    "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True"
+"FFlagFastGPULightCulling3": "True",
+"FIntRenderShadowIntensity": "0",
+"DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+"DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+"FFlagNewLightAttenuation": "True",
+"FIntRenderShadowmapBias": "-1",
+"DFFlagDebugPauseVoxelizer": "True"
 }
 ```
 ### Fullbright 1
@@ -1293,17 +1313,17 @@ High
 ###### @NoobLikesThis
 ```json
 {
-    "FFlagFastGPULightCulling3": "True",
-    "FIntRenderShadowIntensity": "0",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-    "FFlagNewLightAttenuation": "True",
-    "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True",
-    "DFIntDebugFRMQualityLevelOverride": "1",
-    "DFFlagDebugRenderForceTechnologyVoxel": "True",
-    "FFlagRenderFixFog": "True",
-    "FFlagDisablePostFx": "True"
+"FFlagFastGPULightCulling3": "True",
+"FIntRenderShadowIntensity": "0",
+"DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+"DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+"FFlagNewLightAttenuation": "True",
+"FIntRenderShadowmapBias": "-1",
+"DFFlagDebugPauseVoxelizer": "True",
+"DFIntDebugFRMQualityLevelOverride": "1",
+"DFFlagDebugRenderForceTechnologyVoxel": "True",
+"FFlagRenderFixFog": "True",
+"FFlagDisablePostFx": "True"
 }
 ```
 ### Fullbright 2
@@ -1312,63 +1332,63 @@ High
 ###### @NoobLikesThis
 ```json
 {
-    "FFlagFastGPULightCulling3": "True",
-    "FIntRenderShadowmapBias": "-1",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-    "FIntRenderShadowIntensity": "0",
-    "FFlagRenderFixFog": "True",
-    "DFFlagDebugRenderForceTechnologyVoxel": "True",
-    "FFlagRenderNoLowFrmBloom": "false",
-    "DFIntDebugFRMQualityLevelOverride": "1",
-    "FIntBloomFrmCutoff": "1654515",
-    "DFFlagDebugPauseVoxelizer": "True",
-    "FFlagNewLightAttenuation": "True",
-    "FFlagFRMRefactor": "false",
-    "FFlagDisablePostFx": "True"
+"FFlagFastGPULightCulling3": "True",
+"FIntRenderShadowmapBias": "-1",
+"DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+"DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+"FIntRenderShadowIntensity": "0",
+"FFlagRenderFixFog": "True",
+"DFFlagDebugRenderForceTechnologyVoxel": "True",
+"FFlagRenderNoLowFrmBloom": "false",
+"DFIntDebugFRMQualityLevelOverride": "1",
+"FIntBloomFrmCutoff": "1654515",
+"DFFlagDebugPauseVoxelizer": "True",
+"FFlagNewLightAttenuation": "True",
+"FFlagFRMRefactor": "false",
+"FFlagDisablePostFx": "True"
 }
 ```
 ### Draws a circle under avatars
 ```json
 {
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "False"
+"FFlagDebugAvatarChatVisualization": "True",
+"FFlagEnableInGameMenuChromeABTest2": "False"
 }
 ```
 ### Humanoid Outline
 ##### Draws an outline around every part and every humanoid
 ```json
 {
-    "DFFlagDebugDrawBroadPhaseAABBs": "True"
+"DFFlagDebugDrawBroadPhaseAABBs": "True"
 }
 ```
 ### fflag above but more complex
 ##### Draws an outline around every body part
 ```json
 {
-    "DFFlagDebugDrawBvhNodes": "True"
+"DFFlagDebugDrawBvhNodes": "True"
 }
 ```
 ### Buggy ZPlane Camera
 ```json
 {
-    "FIntCameraFarZPlane": "1"
+"FIntCameraFarZPlane": "1"
 }
 ```
 ### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
 ```json
 {
-    "FFlagDebugHumanoidRendering": "True"
+"FFlagDebugHumanoidRendering": "True"
 }
 ```
 ### Xray
 ###### @tyetoniwise 
 ```json
 {
-    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
+"DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+"DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+"DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+"DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
 
@@ -1382,42 +1402,42 @@ High
 > these fflags cause a memory leak + crashes roblox
 ```json
 {
-    "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
-    "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
-    "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
-    "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+"FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+"FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+"FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+"FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
 }
 ```
 ### Crash Roblox 1
 ```json
 {
-    "DFIntTimestepArbiterThresholdCFLThou": "0"
+"DFIntTimestepArbiterThresholdCFLThou": "0"
 }
 ```
 ### Crash Roblox 2
 ```json
 {
-    "DFFlagVideoCaptureServiceEnabled": "False"
+"DFFlagVideoCaptureServiceEnabled": "False"
 }
 ```
 ### Increase Ping 
 ```json
 {
-    "DFIntDataSenderMaxBandwidthBps": "150"
+"DFIntDataSenderMaxBandwidthBps": "150"
 }
 ```
 ### Crash roblox 3 
 ##### when you try to launch roblox it won't open
 ```json
 {
-    "DFFlagDebugSimulateHangAtStartup": "True"
+"DFFlagDebugSimulateHangAtStartup": "True"
 }
 ```
 ### Crash roblox 4
 ##### the same thing from above but it only crashes when you try to close roblox
 ```json
 {
-    "DFFlagDebugSimulateHangAtShutdown": "True"
+"DFFlagDebugSimulateHangAtShutdown": "True"
 }
 ```
 <h1 align="center">Debug</h1>
@@ -1425,89 +1445,89 @@ High
 ### Shows the state of a flag
 ```json
 {
-    "FStringDebugShowFlagState": "FLAG_HERE"
+"FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
 ###### e.g
 ```json
 {
-    "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
+"FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
 }
 ```
 ### Show Outlined Chunks
 ```json
 {
-    "FFlagDebugLightGridShowChunks": "True"
+"FFlagDebugLightGridShowChunks": "True"
 }
 ```
 ### Show Outlined Chunks that are being interacted
 ```json
 {
-    "DFFlagDebugEnableStreamingSolverVisualization": "True"
+"DFFlagDebugEnableStreamingSolverVisualization": "True"
 }
 ```
 ### Prevents Remote Events from running
 ```json
 {
-    "DFIntRemoteEventSingleInvocationSizeLimit": "1"
+"DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
 ### logs stuff in dev console
 ```json
 {
-    "FStringDebugLuaLogLevel": "debug",
-    "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+"FStringDebugLuaLogLevel": "debug",
+"FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
 }
 ```
 ### Octree Validation
 ```json
 {
-    "FFlagDebugEnableOctreeValidation": "True"
+"FFlagDebugEnableOctreeValidation": "True"
 }
 ```
 ### Self Explanatory 1
 ```json
 {
-    "DFFlagDebugPrintDataPingBreakDown": "True"
+"DFFlagDebugPrintDataPingBreakDown": "True"
 }
 ```
 ### Self Explanatory 2
 ```json
 {
-    "DFFlagDebugAudioLogging": "True"
+"DFFlagDebugAudioLogging": "True"
 }
 ```
 ### Duplicate of Above
 ```json
 {
-    "DFFlagDebugAudioLogging2": "True"
+"DFFlagDebugAudioLogging2": "True"
 }
 ```
 ### Self Explanatory 3
 ```json
 {
-    "FFlagTrackerLodControllerDebugUI": "True"
+"FFlagTrackerLodControllerDebugUI": "True"
 }
 ```
 ### Self Explanatory 4
 ###### Disable Drag Detectors
 ```json
 {
-    "FFlagDragDetectors1": "False"
+"FFlagDragDetectors1": "False"
 }
 ```
 ### Self Explanatory 5
 ###### Disabe CTM Climbing
 ```json
 {
-    "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
+"FFlagUserClickToMoveSupportAgentCanClimb2": "False"
 }
 ```
 ### Self Explanatory 6
 ###### Disabe Feedback Button in ESC
 ```json
 {
-    "FFlagDisableFeedbackSoothsayerCheck": "False"
+"FFlagDisableFeedbackSoothsayerCheck": "False"
 }
 ```
 ### Self Explanatory 7
@@ -1515,8 +1535,8 @@ High
 ###### @tyetonix
 ```json
 {
-    "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
-    "DFFlagDebugSimLDLProgramPrintExecStats": "True"
+"DFFlagDebugSimLDLProgramPrintBuildStats": "True",
+"DFFlagDebugSimLDLProgramPrintExecStats": "True"
 }
 ```
 ### Self Explanatory 8
@@ -1524,7 +1544,7 @@ High
 ###### @tyetonix
 ```json
 {
-    "FFlagDebugCountSimBodyAllocations": "True"
+"FFlagDebugCountSimBodyAllocations": "True"
 }
 ```
 
@@ -1536,21 +1556,21 @@ High
 ##### @dynamitebumblemouth
 ```json
 {
-    "FFlagDisablePostFx": "True",
-    "FIntDebugTextureManagerSkipMips": "8",
-    "DFIntTextureCompositorActiveJobs": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
-    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
-    "DFIntDebugFRMQualityLevelOverride": "1",
-    "DFFlagDebugPauseVoxelizer": "True",
-    "DFFlagDebugRenderForceTechnologyVoxel": "True",
-    "FFlagGlobalWindRendering": "False",
-    "FIntRenderShadowIntensity": "0",
-    "FIntRenderShadowmapBias": "1",
-    "FIntDebugForceMSAASamples": "-1",
-    "FIntFRMMinGrassDistance": "0",
-    "DFIntTextureQualityOverride": "1"
+"FFlagDisablePostFx": "True",
+"FIntDebugTextureManagerSkipMips": "8",
+"DFIntTextureCompositorActiveJobs": "0",
+"DFIntCSGLevelOfDetailSwitchingDistance": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+"DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+"DFIntDebugFRMQualityLevelOverride": "1",
+"DFFlagDebugPauseVoxelizer": "True",
+"DFFlagDebugRenderForceTechnologyVoxel": "True",
+"FFlagGlobalWindRendering": "False",
+"FIntRenderShadowIntensity": "0",
+"FIntRenderShadowmapBias": "1",
+"FIntDebugForceMSAASamples": "-1",
+"FIntFRMMinGrassDistance": "0",
+"DFIntTextureQualityOverride": "1"
 }
 ```
