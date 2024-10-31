@@ -555,18 +555,6 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
-### V1 Menu
-```json
-{
-    "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuControls": "False",
-    "FFlagEnableInGameMenuModernization": "False",
-    "FFlagEnableMenuControlsABTest": "False",
-    "FFlagEnableMenuModernizationABTest": "False",
-    "FFlagEnableMenuModernizationABTest2": "False",
-    "FFlagEnableV3MenuABTest3": "False"
-}
-```
 ### Custom Disconnect Message
 ```json
 {
@@ -872,13 +860,6 @@ High
     "FFlagEnableAlwaysOpenUnibar2": "False"
 }
 ```
-### V1 Menu Fix
-```json
-{
-    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
-    "FFlagFixReportButtonCutOff": "False"
-}
-```
 ### Roblox events button
 ###### remove FStringPlatformEventUrl to have the default url
 ```json
@@ -937,7 +918,7 @@ High
 }
 ```
 ### Removes the new ingame chrome chat button
-###### if you use v1 menu, this reverts the chat icon to the old one
+###### if you don't use chromeui, this will revert the chat icon to the old one
 ###### @kezcn
 ```json
 {
