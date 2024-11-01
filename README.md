@@ -877,6 +877,12 @@ High
     "FStringPlatformEventUrl": "AnyLinkHere"
 }
 ```
+### Better Trackpad Scrolling
+```json
+{
+    "FFlagBetterTrackpadScrolling": "True"
+}
+```
 ### Mini webview
 ```json
 {
@@ -1498,6 +1504,21 @@ High
 ```json
 {
     "FFlagDebugCountSimBodyAllocations": "True"
+}
+```
+### Max dev console log count
+###### Control how many developer console logs can be shown at once, for example if you set the limit to be 100, then 100 different log messages will be shown while any older ones will be deleted when the limit is reached
+###### @satlybpro
+```
+{
+    "FIntNewDevConsoleMaxLogCount": "2147483647"
+}
+```
+### Replace all Decals with a Test Image
+###### @.rbx.bloxy
+```json
+{
+    "FFlagDebugTestImageDrawItem": "True"
 }
 ```
 
