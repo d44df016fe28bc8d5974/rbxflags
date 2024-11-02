@@ -109,7 +109,7 @@
 }
 ```
 ### Disable Shadows
-###### found by Uvoltan (427392063563235328)
+###### @Uvoltan 
 ```json
 {
     "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
@@ -274,14 +274,14 @@ High
 ```
 ### Increased Grass Motion
 ###### really fast speed
-###### found by spectro (145596270726217728) in Bloxstrap stuff
+###### @spectro
 ```json
 {
     "FIntGrassMovementReducedMotionFactor": "999"
 }
 ```
 ### No Grass Motion
-###### found by spectro (145596270726217728) in Bloxstrap stuff
+###### @spectro
 ```json
 {
     "FIntGrassMovementReducedMotionFactor": "0"
@@ -337,7 +337,7 @@ High
 }
 ```
 ### No clouds/Sky
-###### found by Bloxy (832597017976504330), 5070 (1272494435690610800)
+###### @Bloxy,@5070
 ```json
 {
     "FFlagRenderNoLowFrmBloom": "false",
@@ -762,7 +762,7 @@ High
 }
 ```
 ### Disable VR Collision Fade
-###### found by Sky (364112742153584640) in Bloxstrap stuff
+###### @Sky
 ```json
 {
     "FFlagViewCollisionFadeToBlackInVR": "False"
@@ -900,7 +900,7 @@ High
 ### No opacity to Chrome UI
 ###### So when this fflag is set to false when you change the background transparency in the esc menu it won't affect the small 3 buttons of chrome ui and will keep them semi-transparent
 ###### the bg transparency set to opaque and the fflag is true and one on the right is bg transparency set to opaque and the fflag is false
-###### found by satlybpro (708463225578192968) in Bloxstrap stuff
+###### @satlybpro
 ```json
 {
     "FFlagChromeUsePreferredTransparency": "False"
@@ -908,7 +908,7 @@ High
 ```
 ### Preferred text size scale
 ###### enables a font scaler in the escape menu
-###### found by Sky (364112742153584640) in Bloxstrap stuff
+###### @Sky
 ```json
 {
      "FFlagEnablePreferredTextSizeScale": "True",
@@ -917,7 +917,7 @@ High
 ```
 ### Explorer Redesign
 ###### studio only
-###### found by easternbloxxer (534419428368973835) in Bloxstrap stuff
+###### @easternbloxxer
 ```json
 {
     "FFlagExplorerPropertiesUseRDLColors": "True",
