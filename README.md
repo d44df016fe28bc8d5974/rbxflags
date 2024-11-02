@@ -210,7 +210,7 @@ High
 }
 ```
 ### Enable GPULightCulling
-###### Combine with [Lighting Attenuation](https://FastFlags/FastFlags-Collective/?tab=readme-ov-file#lighting-attenuation) for better vision
+###### Combine with [Lighting Attenuation](https://github.com/d44df016fe28bc8d5974/rbxflags#lighting-attenuation) for better vision
 ```json
 {
     "FFlagFastGPULightCulling3": "True"
