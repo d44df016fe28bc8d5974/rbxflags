@@ -1443,7 +1443,7 @@ High
 ###### @return_request
 ```json
 {
-    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogLevel": "trace",
     "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
 }
 ```
