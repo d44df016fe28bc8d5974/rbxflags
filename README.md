@@ -696,6 +696,14 @@ High
     "FFlagDebugAdornsDisabled":  "True"
 }
 ```
+### disable coregui
+###### you get a white screen if you use the lua app and all coreguis dont show up if you're ingame
+###### @satlybpro
+```json
+{
+    "FFlagFFlagLogAllGuacRead":  "True"
+}
+```
 ### Dont Render UI
 ```json
 {
