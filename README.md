@@ -949,10 +949,17 @@ High
 ```
 ### Removes the new ingame chrome chat button
 ###### if you don't use chromeui, this will revert the chat icon to the old one
-###### @kezcn
 ```json
 {
     "FFlagAppChatInExperienceEnabledV647new": "False"
+}
+```
+### disable highlights
+###### stops highlights from showing on parts
+###### @satlybpro
+```json
+{
+    "DFFlagRenderHighlightManagerPrepare": "True"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
