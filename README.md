@@ -641,6 +641,13 @@ High
     "FIntFontSizePadding": "1"
 }
 ```
+### red font
+###### You need to use Default Roblox Font to activate this. Also it can be glitchy in the settings menu
+```json
+{
+    "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
+}
+```
 ### Adjust Scroll Speed
 ```json
 {
