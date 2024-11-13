@@ -1524,6 +1524,14 @@ High
     "FIntNewDevConsoleMaxLogCount": "2147483647"
 }
 ```
+### Limit console message length
+###### changes the max character length limit for each dev console message
+###### @satlybpro
+```
+{
+    "FIntStandardOutputMaximumCharacterLength": "100"
+}
+```
 ### Replace all Decals with a Test Image
 ###### @.rbx.bloxy
 ```json
