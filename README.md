@@ -65,6 +65,14 @@
 
 <h1 align="center">Graphical Settings</h1>
 
+### disable highlights
+###### stops highlights from showing on parts
+###### @satlybpro
+```json
+{
+    "DFFlagRenderHighlightManagerPrepare": "True"
+}
+```
 ### Makes stuff slightly brighter
 ```json
 {
@@ -667,10 +675,16 @@ High
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
-### Blue theme
+### Disable Blue theme
 ```json
 {
-    "FFlagLuaAppEnableFoundationColors7": "True"
+    "FFlagLuaAppFoundationColorsABTest": "False"
+}
+```
+### Enable New Settings Layout
+```
+{
+    "FFlagOverrideInExperienceMenuReorderVariant1": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -952,14 +966,6 @@ High
 ```json
 {
     "FFlagAppChatInExperienceEnabledV647new": "False"
-}
-```
-### disable highlights
-###### stops highlights from showing on parts
-###### @satlybpro
-```json
-{
-    "DFFlagRenderHighlightManagerPrepare": "True"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
