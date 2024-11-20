@@ -666,7 +666,7 @@ High
 ###### pretty self explanatory fflag, you can't disable them using the hotkey
 ```json
 {
-    ""FFlagDebugAlwaysDisplayRenderStats"": "true"
+    "FFlagDebugAlwaysDisplayRenderStats"": "true"
 }
 ```
 ### Adjust Scroll Speed
