@@ -656,6 +656,19 @@ High
     "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
 }
 ```
+### New Report Menu
+```json
+{
+    "FStringSelectInSceneReportMenuOverrideUserIds": "UserID"
+}
+```
+### Always display Render Stats
+###### pretty self explanatory fflag, you can't disable them using the hotkey
+```json
+{
+    ""FFlagDebugAlwaysDisplayRenderStats"": "true"
+}
+```
 ### Adjust Scroll Speed
 ```json
 {
