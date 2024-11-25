@@ -1237,19 +1237,6 @@ High
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
-### Slowmotion
-```json
-{
-    "DFIntMaxMissedWorldStepsRemembered": "1"
-}
-```
-### Warp
-###### to warp, first walk and continue walking then hold the white window bar and untab
-```json
-{
-    "DFIntMaxMissedWorldStepsRemembered": "1000"
-}
-```
 ### Noclip 1
 ###### Adjust the value so you don't fall through the ground
 ```json
