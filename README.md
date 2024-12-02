@@ -231,7 +231,7 @@ High
 }
 ```
 ### Frame Buffer
-###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
+###### Explanation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
 ```json
 {
     "DFIntMaxFrameBufferSize": "4"
