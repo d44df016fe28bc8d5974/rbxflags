@@ -697,7 +697,7 @@ High
 ### Enable New Settings Layout
 ```
 {
-    "FFlagOverrideInExperienceMenuReorderVariant1": "True"
+    "FFlagInExperienceMenuReorderFirstVariant1": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
