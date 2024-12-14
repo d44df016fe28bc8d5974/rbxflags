@@ -1237,6 +1237,13 @@ High
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
+### slide on wall walks/hops
+###### buggy. only works in a certain angle.
+```json
+{
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
+}
+```
 ### Noclip 1
 ###### Adjust the value so you don't fall through the ground
 ```json
