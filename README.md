@@ -1237,6 +1237,18 @@ High
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
+### Slowmotion
+```json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1"
+}
+```
+### Warp
+```json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
+}
+```
 ### slide on wall walks/hops
 ###### buggy. only works in a certain angle.
 ```json
