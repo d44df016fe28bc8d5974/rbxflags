@@ -697,7 +697,7 @@ High
 ### Enable New Settings Layout
 ```
 {
-    "FFlagInExperienceMenuReorderFirstVariant1": "True"
+    "FFlagOverrideInExperienceMenuReorderFirstVariant1": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -972,13 +972,6 @@ High
 ```json
 {
     "FFlagMuteTogglesEnableIXP": "False"
-}
-```
-### Removes the new ingame chrome chat button
-###### if you don't use chromeui, this will revert the chat icon to the old one
-```json
-{
-    "FFlagAppChatInExperienceEnabledV647new": "False"
 }
 ```
 <h1 align="center">User Interface/Visuals Experimental</h1>
