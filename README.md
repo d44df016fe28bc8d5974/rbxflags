@@ -974,6 +974,12 @@ High
     "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
+### Simple coregui settings
+```json
+{
+    "FFlagRefactorInExpGameSettings2": "True"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Hat positioning Update
