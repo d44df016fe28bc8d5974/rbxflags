@@ -295,6 +295,12 @@ High
     "FIntGrassMovementReducedMotionFactor": "0"
 }
 ```
+### Enable Highlight Outlines on any Rendering API
+```json
+{
+    "FFlagHighlightOutlinesOnMobile": "True"
+}
+```
 ### Move Pre-Render Phase [~25% Performance Boost]
 ###### This FastFlag moves the Pre-Render task to an off thread after all other tasks are completed. By default, Pre-Render runs first, forcing the render thread to wait until the Pre-Render process finishes before it can start rendering a frame.
 ###### With this FastFlag enabled, Pre-Renderer is executed while the main thread is processing the previous frame. This adjustment allows the main thread to proceed without waiting for Pre-Renderer, leading to increased framerates at the expense of some frame latency.
@@ -511,6 +517,25 @@ High
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### Changes some tiny things about Party
+```json
+{
+    "FFlagAppChatAddConnectUnibarForActiveSquad": "False"
+}
+```
+### Reshuffle Party Icons
+###### Changes the position of the "in a party" icon in the top bar
+```json
+{
+    "FFlagReshufflePartyIconsInUnibar": "False"
+}
+```
+### Renames Party back to Roblox Chat
+```json
+{
+    "FFlagAppChatRebrandStringUpdates": "False"
+}
+```
 ### Reduced avatar item particles in first person
 ###### This just reduces the particle effect transparency when you go into first person which helps with visibility.
 ```json
@@ -698,6 +723,12 @@ High
 ```
 {
     "FFlagOverrideInExperienceMenuReorderFirstVariant1": "True"
+}
+```
+### Reset Character instead of Respawn in Experience Menu
+```json
+{
+    "FFlagInExperienceMenuResetButtonTextToRespawn": "False"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -925,6 +956,12 @@ High
     "FFlagBetterTrackpadScrolling": "True"
 }
 ```
+### Reset Character instead of Respawn in Experience Menu
+```json
+{
+    "FFlagInExperienceMenuResetButtonTextToRespawn": "False"
+}
+```
 ### Mini webview
 ```json
 {
@@ -974,18 +1011,12 @@ High
     "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
-### Simple coregui settings
-```json
-{
-    "FFlagRefactorInExpGameSettings2": "True"
-}
-```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
-### Hat positioning Update
+### Simple coregui settings
 ```
 {
-    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True"
+    "FFlagRefactorInExpGameSettings2": "True"
 }
 ```
 ### Disable Haptics Option
