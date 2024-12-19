@@ -973,7 +973,7 @@ High
 ###### desktop app only
 ```json
 {
-    "FFlagWebViewProtocol": "False"
+    "FStringExperienceGuidelinesExplainedPageUrl": "url"
 }
 ```
 ### No opacity to Chrome UI
@@ -1599,6 +1599,13 @@ High
 ```
 {
     "FIntNewDevConsoleMaxLogCount": "2147483647"
+}
+```
+### Self Explanatory 13
+###### Default value is 650, higher value more usage lower value less
+```json
+{
+    "FIntRenderMaxShadowAtlasUsageBeforeDownscale": "650"
 }
 ```
 ### Limit console message length
