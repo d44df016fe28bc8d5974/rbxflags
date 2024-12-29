@@ -873,7 +873,7 @@ High
 ### Customize chat translation settings
 ###### A fflag that lets you customize what languages are available for the chat translation feature
 ###### (English cannot be removed)
-###### @Skylan
+###### @thefrenchguy4
 ```json
 {
     "FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
