@@ -1011,6 +1011,14 @@ High
     "FFlagMuteTogglesEnableIXP": "False"
 }
 ```
+### Multi Try On
+###### Allows you to try on multiple things in the catalog and buy everything at once
+###### some accessories in the same category cannot be tried on at the same time
+```json
+{
+   "FFlagAXEnableMultiTryOnUI": "True"
+}
+```
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
 ### Simple coregui settings
