@@ -1024,7 +1024,7 @@ High
 ### Simple coregui settings
 ```
 {
-    "FFlagDebugRefactorInExpGameSettings": "True"
+    "FFlagRefactorInExpGameSettings": "True"
 }
 ```
 ### Disable Haptics Option
