@@ -1616,6 +1616,13 @@ High
     "FIntRenderMaxShadowAtlasUsageBeforeDownscale": "650"
 }
 ```
+### Self Explanatory 14
+###### Allows you to edit the DataModel Patch
+```
+{
+    "FFlagDataModelPatcherForceLocal": "True"
+}
+```
 ### Limit console message length
 ###### changes the max character length limit for each dev console message
 ###### @satlybpro
