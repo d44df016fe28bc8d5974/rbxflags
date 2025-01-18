@@ -55,11 +55,16 @@
 }
 ```
 ### Unified lighting
-###### this is just future but with even more shadows
 ```json
 {
-    "FFlagRenderUnifiedLighting10": "True",
+    "FFlagRenderUnifiedLighting12": "True",
     "FFlagUnifiedLightingBetaFeature": "True"
+}
+```
+### Unified Lighting Blendzone
+```json
+{
+    "FIntUnifiedLightingBlendZone": "500"
 }
 ```
 
