@@ -338,6 +338,20 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
+### Vertex Smoothing Group Tolerance
+###### this might be placebo i didn't test this
+```json
+{
+    "FIntVertexSmoothingGroupTolerance": "500"
+}
+```
+### zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+###### this might be placebo i didn't test this
+```json
+{
+    "FFlagRenderInitShadowmaps": "true"
+}
+```
 ### Render Occlusion Culling
 ###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
 ```json
@@ -1201,6 +1215,12 @@ High
 ```json
 {
     "FFlagProcessAnimationLooped": "False"
+}
+```
+### Disable Animation Dynamic Speed
+```json
+{
+    "DFFlagUserAnimateScaleRun": "False"
 }
 ```
 ### Stick unanchored parts to you
