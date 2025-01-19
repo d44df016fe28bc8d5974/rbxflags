@@ -70,6 +70,14 @@
 
 <h1 align="center">Graphical Settings</h1>
 
+### Enable DRS
+###### side effects: slightly low poly player model, slightly low quality shirts and pants but its barely noticeable though
+```json
+{
+    "FFlagRenderDynamicResolutionScale9": "True"
+}
+```
+
 ### disable highlights
 ###### stops highlights from showing on parts
 ###### @satlybpro
