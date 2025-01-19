@@ -1333,6 +1333,13 @@ High
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
+### Noclip 3/Mesh Noclip ✨
+###### @tyetonix
+```json
+{
+    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
+}
+```
 ### Hip Height
 ###### Very controllable bounce, only works with negative values, 0 allows you to hover
 ```json
@@ -1350,7 +1357,8 @@ High
 ###### @tyetonix
 ```json
 {
-    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
 }
 ```
 ### Drive vehicles slowly
