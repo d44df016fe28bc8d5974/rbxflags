@@ -1054,6 +1054,12 @@ High
     "FFlagRefactorInExpGameSettings": "True"
 }
 ```
+### New microprofiler and shift + f5 ui
+```
+{
+    "FFlagImproveMicroprofilerReadability": "True"
+}
+```
 ### Disable Haptics Option
 ```json
 {
