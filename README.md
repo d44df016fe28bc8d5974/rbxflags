@@ -749,7 +749,7 @@ High
 ### Enable New Settings Layout
 ```
 {
-    "FFlagOverrideInExperienceMenuReorderFirstVariant1": "True"
+    "FFlagInExperienceMenuReorderFirstVariant2": "True"
 }
 ```
 ### Reset Character instead of Respawn in Experience Menu
