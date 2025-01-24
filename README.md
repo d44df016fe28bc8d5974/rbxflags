@@ -74,7 +74,7 @@
 ###### side effects: slightly low poly player model, slightly low quality shirts and pants but its barely noticeable though
 ```json
 {
-    "FFlagRenderDynamicResolutionScale9": "True"
+    "FFlagRenderDynamicResolutionScale10": "True"
 }
 ```
 
