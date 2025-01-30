@@ -1054,6 +1054,13 @@ High
     "FFlagRefactorInExpGameSettings": "True"
 }
 ```
+### Capture posts
+###### twitter but roblox edition
+```
+{
+    "FFlagCapturesPostEnabledForAll_v4": "true"
+}
+```
 ### New microprofiler and shift + f5 ui
 ```
 {
