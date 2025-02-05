@@ -1068,12 +1068,6 @@ High
     "FFlagImproveMicroprofilerReadability": "True"
 }
 ```
-### Disable Haptics Option
-```json
-{
-    "FFlagAddHapticsToggle": "False"
-}
-```
 ### Enable Better Haptics
 ```json
 {
@@ -1237,12 +1231,6 @@ High
 ```json
 {
     "FFlagProcessAnimationLooped": "False"
-}
-```
-### Disable Animation Dynamic Speed
-```json
-{
-    "DFFlagUserAnimateScaleRun": "False"
 }
 ```
 ### Stick unanchored parts to you
