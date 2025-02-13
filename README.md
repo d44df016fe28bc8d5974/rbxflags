@@ -622,7 +622,8 @@ High
     "FIntNewInGameMenuPercentRollout3": "100",
     "FFlagEnableInGameMenuControls": "False",
     "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "false"
 }
 ```
 ### Custom Disconnect Message
@@ -1077,7 +1078,8 @@ High
 ### Chrome UI Topbar Removal
 ```json
 {
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False"
 }
 ```
 ### Hide playerlist close button on Chrome UI
@@ -1447,7 +1449,8 @@ High
 ```json
 {
     "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False"
 }
 ```
 ### Humanoid Outline
