@@ -623,7 +623,8 @@ High
     "FFlagEnableInGameMenuControls": "False",
     "FFlagDisableNewIGMinDUA": "True",
     "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "false"
+    "FFlagEnableInGameMenuChrome": "false",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Custom Disconnect Message
@@ -1079,7 +1080,8 @@ High
 ```json
 {
     "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False"
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Hide playerlist close button on Chrome UI
@@ -1450,7 +1452,8 @@ High
 {
     "FFlagDebugAvatarChatVisualization": "True",
     "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False"
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 ### Humanoid Outline
