@@ -174,6 +174,13 @@ High
     "DFIntDebugRestrictGCDistance": "1"
 }
 ```
+### Pixelated graphics
+###### This flag makes your graphics pixelated, higher values will show you more pixels
+```json
+{
+    "DFIntDebugDynamicRenderKiloPixels": "1"
+}
+```
 ### Limits light updates
 ```json
 {
