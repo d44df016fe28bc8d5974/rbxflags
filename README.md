@@ -1259,12 +1259,6 @@ High
     "DFIntRaycastMaxDistance": "3"
 }
 ```
-### Possible Super Jump
-```json
-{
-    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
-}
-```
 ### Change DataSender Rate
 ###### a.k.a does not let you load games
 ```json
