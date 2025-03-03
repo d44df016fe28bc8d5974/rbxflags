@@ -352,20 +352,6 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-### Vertex Smoothing Group Tolerance
-###### this might be placebo i didn't test this
-```json
-{
-    "FIntVertexSmoothingGroupTolerance": "500"
-}
-```
-### zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-###### this might be placebo i didn't test this
-```json
-{
-    "FFlagRenderInitShadowmaps": "true"
-}
-```
 ### Render Occlusion Culling
 ###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
 ```json
@@ -451,6 +437,14 @@ High
 ```json
 {
     "FFlagAdServiceEnabled": "False"
+}
+```
+### Spammed letters
+###### This fflag basically spams every other letter on roblox coregui and the game's gui but it doesn't affect some parts of the games.
+###### Default is 0 and if you set it to anything higher it just follows whatever number you put
+```json
+{
+    "FIntDebugTextElongationFactor": "999999"
 }
 ```
 ### Disable Telemetry 
