@@ -385,18 +385,11 @@ High
     "FFlagEnableCapturesHotkeyExperiment_v4": "False"
 }
 ```
-### FPS Unlocker in Roblox Menu Settings
-```json
-{
-    "FFlagGameBasicSettingsFramerateCap5": "True",
-    "DFIntTaskSchedulerTargetFps": "0"
-}
-```
 ### Unlimited FPS Unlocker
-###### From: https://discord.gg/nKjV3mGq6R
 ```json
 {
     "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "FFlagGameBasicSettingsFramerateCap5": "False",
     "DFIntTaskSchedulerTargetFps": "9999"
 }
 ```
