@@ -1333,13 +1333,6 @@ High
     "DFIntPhysicsDecompForceUpgradeVersion": "1500"
 }
 ```
-### Hip Height
-###### Very controllable bounce, only works with negative values, 0 allows you to hover
-```json
-{
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
-}
-```
 ### Wallglide
 ```json
 {
