@@ -1461,16 +1461,6 @@ High
     "FFlagDebugHumanoidRendering": "True"
 }
 ```
-### Xray
-###### @tyetoniwise 
-```json
-{
-    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
-}
-```
 
 <h1 align="center">Abusive Game Specific Presets</h1>
 
