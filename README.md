@@ -1333,12 +1333,6 @@ High
     "DFIntPhysicsDecompForceUpgradeVersion": "1500"
 }
 ```
-### Wallglide
-```json
-{
-    "DFIntUnstickForceAttackInTenths": "-4"
-}
-```
 ### Slide on Terrain/Meshes
 ###### @tyetonix
 ```json
