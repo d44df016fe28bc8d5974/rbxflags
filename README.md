@@ -1437,7 +1437,7 @@ High
 }
 ```
 ### Buggy ZPlane Camera
-###### seting this to 0 makes the map invisible
+###### setting this to 0 makes the map invisible
 ```json
 {
     "FIntCameraFarZPlane": "1"
