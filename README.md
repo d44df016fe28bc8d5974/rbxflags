@@ -1305,13 +1305,6 @@ High
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-### slide on wall walks/hops
-###### buggy. only works in a certain angle.
-```json
-{
-    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
-}
-```
 ### Noclip 1
 ###### Adjust the value so you don't fall through the ground
 ```json
@@ -1337,8 +1330,7 @@ High
 ###### @tyetonix
 ```json
 {
-    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
-    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
 }
 ```
 ### Drive vehicles slowly
