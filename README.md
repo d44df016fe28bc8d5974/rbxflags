@@ -1305,13 +1305,6 @@ High
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-### Noclip 1
-###### Adjust the value so you don't fall through the ground
-```json
-{
-    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
-}
-```
 ### Noclip 2
 ###### Adjust the value so you don't fall through the ground
 ```json
