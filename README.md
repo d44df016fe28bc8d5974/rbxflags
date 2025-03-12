@@ -1182,13 +1182,6 @@ High
     "DFFlagAnimatorPostProcessIK": "True"
 }
 ```
-### Adjust Hip Height Clamps
-###### https://www.roblox.com/bundles/63/Mage-Animation-Package
-```json
-{
-    "DFIntHipHeightClamp": "-48"
-}
-```
 ### Random High Jumps
 ###### https://youtu.be/2JkA4hWCAWw
 ```json
