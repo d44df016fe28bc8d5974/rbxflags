@@ -1049,10 +1049,10 @@ High
     "FFlagCapturesPostEnabledForAll_v4": "true"
 }
 ```
-### New microprofiler and shift + f5 ui
+### Disable new microprofiler and shift + f5 ui
 ```
 {
-    "FFlagImproveMicroprofilerReadability": "True"
+    "FFlagImproveMicroprofilerReadability": "Fale"
 }
 ```
 ### Enable Better Haptics
