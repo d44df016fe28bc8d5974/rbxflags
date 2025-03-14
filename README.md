@@ -1052,7 +1052,7 @@ High
 ### Disable new microprofiler and shift + f5 ui
 ```
 {
-    "FFlagImproveMicroprofilerReadability": "Fale"
+    "FFlagImproveMicroprofilerReadability": "False"
 }
 ```
 ### Enable Better Haptics
