@@ -1244,32 +1244,11 @@ High
     "DFIntTouchSenderMaxBandwidthBps": "-1"
 }
 ```
-### Fake Lag
+### Better serversided character position
+###### 100 makes your serversided character closer to your client
 ```json
 {
-    "DFIntS2PhysicsSenderRate": "1"
-}
-```
-### Invisible 1
-###### **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
-```json
-{
-    "DFIntS2PhysicsSenderRate": "-30"
-}
-```
-### Invisible 2
-###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](https://docs.google.com/document/d/1_kQr-tkc97lcg7ZvFfJdt8UzaziIfwuJPrzR6sTOLHo/)
-```json
-{
-    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
-}
-```
-### Teleport ragdolled bodies to 0,0,0
-###### this doesn't work in every game with ragdolls
-###### the teleporting is clientsided, no one else can see them
-```json
-{
-    "DFIntGameNetLocalSpaceMaxSendIndex": "10000"
+    "DFIntS2PhysicsSenderRate": "100"
 }
 ```
 ### Invisible 3
