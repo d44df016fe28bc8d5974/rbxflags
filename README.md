@@ -280,7 +280,7 @@ High
 ###### 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything
 ```json
 {
-    "FIntDebugTextureManagerSkipMips": "-1"
+    "FIntDebugTextureManagerSkipMips": "8"
 }
 ```
 ### Remove Grass
@@ -1265,16 +1265,10 @@ High
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
-### Slowmotion
+### Wallglide
 ```json
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1"
-}
-```
-### Warp
-```json
-{
-    "DFIntMaxMissedWorldStepsRemembered": "1000"
+    "DFIntMaximumUnstickForceInGs": "-4"
 }
 ```
 ### Noclip 2
