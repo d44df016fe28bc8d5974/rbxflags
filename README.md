@@ -548,11 +548,11 @@ High
     "FFlagAppChatRebrandStringUpdates": "False"
 }
 ```
-### Reduced avatar item particles in first person
-###### This just reduces the particle effect transparency when you go into first person which helps with visibility.
+### Disable reduced avatar item particles in first person
+###### disables reducing particle effect transparency if you go to first person
 ```json
 {
-    "FFlagUserHideCharacterParticlesInFirstPerson": "True"
+    "FFlagUserHideCharacterParticlesInFirstPerson": "False"
 }
 ```
 ### Increased preloading asset count
