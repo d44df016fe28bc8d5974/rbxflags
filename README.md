@@ -580,14 +580,6 @@ High
 ```
 <h1 align="center">User Interface/Visuals</h1>
 
-### Fix Reduced Motion Stuck
-###### @kezcn
-![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
-```json
-{
-    "FFlagFixReducedMotionStuckIGM2": "True"
-}
-```
 ### Revert "Charts" back to Discovery
 ```json
 {
