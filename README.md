@@ -1239,7 +1239,14 @@ High
     "DFIntS2PhysicsSenderRate": "100"
 }
 ```
-### Invisible 1
+### Invisible
+```json
+{
+    "DFIntGameNetOptimizeParallelPhysicsSendAssemblyBatch": "-1",
+    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "-1"
+}
+```
+### Invisible 2
 ###### Restricts the client from sending any physics-related information. This means other people can topple you over.
 ```json
 {
