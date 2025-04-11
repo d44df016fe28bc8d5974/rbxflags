@@ -911,6 +911,12 @@ High
     "FFlagEnableHamburgerIcon": "False"
 }
 ```
+### Old chrome ui chat icon
+```json
+{
+    "FFlagAppChatRebrandIconUpdates": "False"
+}
+```
 ### Thick healthbar
 ###### Disabling it will completly remove the healthbar
 ```json
@@ -1266,14 +1272,21 @@ High
     "DFIntMaximumUnstickForceInGs": "-4"
 }
 ```
-### Noclip 2
+### Ragdoll freeze
+###### you freeze while you're ragdolled
+```json
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+}
+```
+### Noclip
 ###### Adjust the value so you don't fall through the ground
 ```json
 {
     "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
-### Noclip 3/Mesh Noclip ✨
+### Noclip 2/Mesh Noclip ✨
 ###### @tyetonix
 ```json
 {
