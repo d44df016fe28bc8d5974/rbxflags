@@ -1279,6 +1279,13 @@ High
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
 }
 ```
+### less kb in sb
+```json
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "-1",
+    "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
+}
+```
 ### Noclip
 ###### Adjust the value so you don't fall through the ground
 ```json
