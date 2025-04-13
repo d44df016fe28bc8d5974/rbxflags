@@ -213,6 +213,14 @@ High
     "FFlagDebugSkyGray": "True"
 }
 ```
+### White Sky
+###### Only applies to games with the default skybox
+```json
+{
+    "FFlagDebugSkyGray": "True",
+    "FFlagSkyUseRGBEEncoding": "True"
+}
+```
 ### Force LOD on Meshes
 ```json
 {
@@ -1165,14 +1173,6 @@ High
 ```json
 {
     "DFFlagAnimatorPostProcessIK": "True"
-}
-```
-### Random High Jumps
-###### https://youtu.be/2JkA4hWCAWw
-```json
-{
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
 ### Drunk
