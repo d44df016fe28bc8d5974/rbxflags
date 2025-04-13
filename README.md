@@ -340,16 +340,6 @@ High
     "DFIntMaxActiveAnimationTracks": "0"
 }
 ```
-### Render Occlusion Culling
-###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
-```json
-{
-    "DFFlagUseVisBugChecks": "True",
-    "FFlagEnableVisBugChecks27": "True",
-    "FFlagVisBugChecksThreadYield": "True",
-    "FIntEnableVisBugChecksHundredthPercent27": "100"
-}
-```
 ### Increased Particles on low graphics
 ###### @teeenoob
 ```json
@@ -438,7 +428,8 @@ High
     "FFlagDebugDisableTelemetryV2Counter": "True",
     "FFlagDebugDisableTelemetryV2Event": "True",
     "FFlagDebugDisableTelemetryV2Stat": "True",
-    "FStringTencentAuthPath": "null"
+    "FStringTencentAuthPath": "null",
+    "FFlagDisableMemoryTracking": "True"
 }
 ```
 ### Surf the web inside of Roblox
