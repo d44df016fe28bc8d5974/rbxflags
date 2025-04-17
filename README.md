@@ -1277,13 +1277,6 @@ High
     "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
-### Noclip
-###### Adjust the value so you don't fall through the ground
-```json
-{
-    "DFIntSimBroadPhasePairCountMax": "50"
-}
-```
 ### Noclip 2/Mesh Noclip ✨
 ###### @tyetonix
 ```json
