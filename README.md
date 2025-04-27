@@ -575,18 +575,6 @@ High
 ```
 <h1 align="center">User Interface/Visuals</h1>
 
-### Revert "Charts" back to Discovery
-```json
-{
-    "FFlagLuaAppChartsPageRenameIXP": "False"
-}
-```
-### Disable Sidebar Text (Default: True)
-```json
-{
-    "FFlagEnableNavBarLabels3": "False"
-}
-```
 ### V2 Menu
 ###### enables the 2020 sidebar menu
 ```json
@@ -630,19 +618,6 @@ High
 ```json
 {
     "FFlagDebugDisplayUnthemedInstances": "True"
-}
-```
-### Revert new invite menu
-```json
-{
-    "FFlagEnableNewInviteMenuIXP2": "False"
-}
-```
-### Revert spacing on errors
-###### @kezcn
-```json
-{
-    "FFlagErrorPromptResizesHeight": "False"
 }
 ```
 ### Remove Disconnect Blur/Loading Blur
@@ -914,13 +889,6 @@ High
 ```json
 {
     "FFlagAppChatRebrandIconUpdates": "False"
-}
-```
-### Thick healthbar
-###### Disabling it will completly remove the healthbar
-```json
-{
-    "FFlagUpdateHealthBar": "True"
 }
 ```
 ### Revert the new chrome ui to the old one
