@@ -682,13 +682,6 @@ High
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
-### Enable Blue theme
-```json
-{
-    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
-    "FFlagLuaAppEnableFoundationColors7": "True"
-}
-```
 ### Enable New Settings Layout
 ```
 {
