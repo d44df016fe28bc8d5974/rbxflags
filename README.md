@@ -1111,6 +1111,14 @@ High
 ```
 <h1 align="center">Physics (Abusive)</h1>
 
+### Terrain fly
+```json
+{
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+    "DFIntBulletContactBreakOrthogonalThresholdActivatePercent": "2147483647",
+    "DFIntBulletContactBreakThresholdPercent": "15000"
+}
+```
 ### Tool Desync
 ```json
 {
