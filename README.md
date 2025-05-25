@@ -135,7 +135,7 @@
 }
 ```
 ### Low Graphics Quality w/ Max Render Distance/FRM Quality Levels
-###### Explanation: 1-6 Are low graphics, Above 6 are high graphics. Like the 1-21 graphics slider
+###### Explanation: 1-6 Are low graphics, Above 6 are high graphics.
 ```json
 {
     "DFIntDebugFRMQualityLevelOverride": "1"
