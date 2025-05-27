@@ -744,12 +744,6 @@ High
     "FFlagDebugDontRenderScreenGui": "True"
 }
 ```
-### Disable Autocomplete
-```json
-{
-    "FFlagEnableCommandAutocomplete": "False"
-}
-```
 ### Break Top Bar Menu
 ```json
 {
@@ -994,12 +988,6 @@ High
 ```
 {
     "FFlagCapturesPostEnabledForAll_v4": "true"
-}
-```
-### Disable new microprofiler and shift + f5 ui
-```
-{
-    "FFlagImproveMicroprofilerReadability": "False"
 }
 ```
 ### Enable Better Haptics
