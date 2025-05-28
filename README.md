@@ -419,20 +419,6 @@ High
     "FIntDebugTextElongationFactor": "999999"
 }
 ```
-### Disable Telemetry 
-```json
-{
-    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
-    "FFlagDebugDisableTelemetryEphemeralStat": "True",
-    "FFlagDebugDisableTelemetryEventIngest": "True",
-    "FFlagDebugDisableTelemetryPoint": "True",
-    "FFlagDebugDisableTelemetryV2Counter": "True",
-    "FFlagDebugDisableTelemetryV2Event": "True",
-    "FFlagDebugDisableTelemetryV2Stat": "True",
-    "FStringTencentAuthPath": "null",
-    "FFlagDisableMemoryTracking": "True"
-}
-```
 ### Surf the web inside of Roblox
 ###### Click the Beta badge or the 13+ badge to open the webview browser.
 ```json
