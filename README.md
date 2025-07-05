@@ -778,14 +778,12 @@ High
 }
 ```
 ### Limit Videos Playing
-###### @kezcn
 ```json
 {
     "DFIntVideoMaxNumberOfVideosPlaying": "0"
 }
 ```
 ### Disable DSA Reporting In-game
-###### @kezcn
 ```json
 {
     "FFlagDSAIllegalContentReporting2": "False"
@@ -793,7 +791,6 @@ High
 ```
 ### Desktop App Dev Tools
 ###### only works on web view windows like profiles, ctrl + shift + I
-###### @kezcn
 ```json
 {
     "FFlagDebugEnableNewWebView2DevTool": "True"
@@ -940,7 +937,6 @@ High
 ```
 ### Mute button redesign (VC)
 ###### changes the vc mute button in the menu
-###### @kezcn
 ```json
 {
     "FFlagMuteTogglesEnableIXP": "False"
