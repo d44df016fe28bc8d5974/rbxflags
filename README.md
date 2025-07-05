@@ -1107,9 +1107,15 @@ High
 ### Drunk
 ```json
 {
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
     "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
     "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+### Spinning
+```json
+{
+   "DFIntSimTimestepMultiplierDebounceCount": "-1100000",
+   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999"
 }
 ```
 ### No Animations
