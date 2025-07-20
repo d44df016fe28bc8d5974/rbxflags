@@ -256,6 +256,20 @@ High
     "DFIntMaxFrameBufferSize": "4"
 }
 ```
+### Average Frame Delay
+```json
+{
+    "DFIntMaxAverageFrameDelayExceedFactor": "3"
+}
+```
+### Average Frame Delay + Frame Buffer
+```json
+{
+    "DFIntMaxFrameBufferSize": "1",
+    "FIntInterpolationAwareTargetTimeLerpHundredth": "100",
+    "DFIntMaxAverageFrameDelayExceedFactor": "0"
+}
+```
 ### Low Quallity Terrain Textures
 ###### 4 for less quality 16, 32, 64 for higher quality
 ```json
@@ -1199,13 +1213,6 @@ High
 {
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "-1",
     "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
-}
-```
-### Noclip 2/Mesh Noclip ✨
-###### @tyetonix
-```json
-{
-    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
 }
 ```
 ### Slide on Terrain/Meshes
