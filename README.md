@@ -57,8 +57,7 @@
 ### Unified lighting
 ```json
 {
-    "FFlagRenderUnifiedLighting12": "True",
-    "FFlagUnifiedLightingBetaFeature": "True"
+    "FFlagRenderUnifiedLighting16": "True"
 }
 ```
 ### Unified Lighting Blendzone
@@ -1215,6 +1214,7 @@ High
     "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
+
 ### Slide on Terrain/Meshes
 ###### @tyetonix
 ```json
@@ -1227,6 +1227,19 @@ High
 ```json
 {
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+}
+```
+### Enhanced Wallhopping
+###### @tyetonix
+```json
+{
+    "DFIntMaximumFreefallMoveTimeInTenths": "9999999",
+    "DFIntMinimumFreefallMoveDistanceInTenths": "100",
+    "DFIntMaximumUnstickForceInGs": "-1",
+    "DFIntUnstickForceDecayInTenths": "1",
+    "DFIntUnstickForceEpsilonInHundredths": "1",
+    "DFFlagFixFreefall": "true",
+    "DFFlagFixFreefallCleanup": "true"
 }
 ```
 ### Network Ownership
