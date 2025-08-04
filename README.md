@@ -1307,10 +1307,9 @@ High
     "FFlagDisablePostFx": "True"
 }
 ```
-### Draws a circle under avatars
+### Revert chrome ui
 ```json
 {
-    "FFlagDebugAvatarChatVisualization": "True",
     "FFlagEnableInGameMenuChromeABTest4": "False",
     "FFlagEnableInGameMenuChrome": "False",
     "FFlagEnableInGameMenuSongbirdABTest": "False"
