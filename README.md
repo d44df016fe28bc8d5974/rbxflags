@@ -1307,14 +1307,6 @@ High
     "FFlagDisablePostFx": "True"
 }
 ```
-### Revert chrome ui
-```json
-{
-    "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False",
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
-}
-```
 ### Humanoid Outline
 ##### Draws an outline around every part and every humanoid
 ```json
