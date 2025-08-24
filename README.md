@@ -1186,6 +1186,19 @@ High
     "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
 }
 ```
+### Freeze
+###### Press ctrl + f7 to activate
+```json
+{
+    "DFFlagDebugEnableInterpThrottle": "True"
+}
+```
+### Slight jump boost
+```json
+{
+    "FIntSimDefaultFluidForceEnabled": "3"
+}
+```
 ### Wallglide
 ```json
 {
