@@ -984,6 +984,15 @@ High
     "FFlagEnableBetterHapticsResultHandling": "True"
 }
 ```
+### Chrome UI Topbar Removal
+```json
+{
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
+}
+
+```
 ### Hide playerlist close button on Chrome UI
 ```json
 {
