@@ -437,7 +437,7 @@ High
 ```
 ### No crash uploads
 ###### Add upload.crashes.rbxinfra.com to hosts
-###### And replace RobloxCrashHandler.exe which located inside your roblox folder with a invalid exe to block it further
+###### And replace RobloxCrashHandler.exe which is located inside your roblox folder with a invalid exe to block it further
 ```json
 {
     "DFIntCrashUploadToBacktracePercentage": "0",
