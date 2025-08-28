@@ -425,9 +425,7 @@ High
 }
 ```
 ### Disable telemetry
-###### Consider adding ecsv2.roblox.com and client-telemetry.roblox.com to your hosts file for more privacy.
-###### Windows: C:\Windows\System32\drivers\etc 
-###### Linux: /etc/hosts
+###### Add ecsv2.roblox.com and client-telemetry.roblox.com to hosts to fully block it
 ```json
 {
     "DFStringTelemetryV2Url": "0.0.0.0",
@@ -435,6 +433,23 @@ High
     "FFlagEnableTelemetryService1": "False",
     "FFlagPropertiesEnableTelemetry": "False",
     "FFlagOpenTelemetryEnabled2": "False"
+}
+```
+### No crash uploads
+###### Add upload.crashes.rbxinfra.com to hosts
+###### And replace RobloxCrashHandler.exe inside your roblox folder with a invalid exe to block it further
+```json
+{
+    "DFIntCrashUploadToBacktracePercentage": "0",
+    "DFStringCrashUploadToBacktraceBaseUrl": "nullx",
+    "FFlagCrashUploadDX11WindowsHResult2": "nullx",
+    "FFlagCrashUploadDX11WindowsHResultANR2": "False",
+    "FFlagCrashUploadDX11WindowsHResultCrashPadReporter2": "False",
+    "FFlagCrashUploadDX11WindowsHResultANR3": "False",
+    "FFlagCrashUploadDX11WindowsHResult3": "False",
+    "DFStringCrashUploadToBacktraceIOSPlayerToken": "nullx",
+    "DFStringCrashUploadToBacktraceMacPlayerToken": "nullx",
+    "DFStringCrashUploadToBacktraceWindowsPlayerToken": "nullx"
 }
 ```
 ### Spammed letters
