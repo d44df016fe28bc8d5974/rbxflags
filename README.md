@@ -425,7 +425,7 @@ High
 }
 ```
 ### Disable telemetry
-###### Add ecsv2.roblox.com and client-telemetry.roblox.com to hosts to fully block it
+###### Add ecsv2.roblox.com and client-telemetry.roblox.com to hosts to block client telemetry
 ```json
 {
     "DFStringTelemetryV2Url": "0.0.0.0",
@@ -437,12 +437,12 @@ High
 ```
 ### No crash uploads
 ###### Add upload.crashes.rbxinfra.com to hosts
-###### And replace RobloxCrashHandler.exe inside your roblox folder with a invalid exe to block it further
+###### And replace RobloxCrashHandler.exe which located inside your roblox folder with a invalid exe to block it further
 ```json
 {
     "DFIntCrashUploadToBacktracePercentage": "0",
     "DFStringCrashUploadToBacktraceBaseUrl": "nullx",
-    "FFlagCrashUploadDX11WindowsHResult2": "nullx",
+    "FFlagCrashUploadDX11WindowsHResult2": "False",
     "FFlagCrashUploadDX11WindowsHResultANR2": "False",
     "FFlagCrashUploadDX11WindowsHResultCrashPadReporter2": "False",
     "FFlagCrashUploadDX11WindowsHResultANR3": "False",
