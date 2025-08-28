@@ -424,6 +424,19 @@ High
     "FFlagAdServiceEnabled": "False"
 }
 ```
+### Disable telemetry
+###### Consider adding ecsv2.roblox.com and client-telemetry.roblox.com to your hosts file for more privacy.
+###### Windows: C:\Windows\System32\drivers\etc 
+###### Linux: /etc/hosts
+```json
+{
+    "DFStringTelemetryV2Url": "0.0.0.0",
+    "FFlagEnableTelemetryProtocol": "False",
+    "FFlagEnableTelemetryService1": "False",
+    "FFlagPropertiesEnableTelemetry": "False",
+    "FFlagOpenTelemetryEnabled2": "False"
+}
+```
 ### Spammed letters
 ###### This fflag basically spams every other letter on roblox coregui and the game's gui but it doesn't affect some parts of the games.
 ###### Default is 0 and if you set it to anything higher it just follows whatever number you put
