@@ -1459,7 +1459,6 @@ High
 ```
 ### log player joins,leaves,messages
 ###### only works with the new chat
-###### @return_request
 ```json
 {
     "FStringDebugLuaLogLevel": "trace",
