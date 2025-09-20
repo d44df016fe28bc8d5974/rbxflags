@@ -1115,6 +1115,14 @@ High
     "FFlagGameDetailsDecoupledCommunication": "False"
 }
 ```
+### New notifications
+###### No more ancient 2015 ui
+```json
+{
+    "FFlagEnableClientToastNotificationsRedirectExperiment": "True",
+    "FFlagClientToastNotificationsRedirect4": "True"
+}
+```
 <h1 align="center">Physics (Abusive)</h1>
 
 ### Terrain fly
