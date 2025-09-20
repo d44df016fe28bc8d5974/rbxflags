@@ -160,6 +160,7 @@ High
 10 = 21
 ```
 ### Low Render Distance
+###### only works if streaming enabling is enabled, check shift + f3
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
